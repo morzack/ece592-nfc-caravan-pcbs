@@ -1,0 +1,9 @@
+[submodule "breakout-pcb"]
+	path = breakout-pcb
+	url = https://github.com/TinyTapeout/breakout-pcb.git
+[submodule "tt-demo-pcb"]
+	path = tt-demo-pcb
+	url = https://github.com/TinyTapeout/tt-demo-pcb.git
+[submodule "caravel_board"]
+	path = caravel_board
+	url = https://github.com/efabless/caravel_board.git
