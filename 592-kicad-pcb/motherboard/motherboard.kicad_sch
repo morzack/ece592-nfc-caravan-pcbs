@@ -5,9 +5,41 @@
 	(uuid "5b0c97ac-fa03-4db8-b41b-0eee32b6f55d")
 	(paper "A4")
 	(lib_symbols)
+	(no_connect
+		(at 17.78 27.94)
+		(uuid "6d8eb318-3d41-4603-8cff-07f053bfab3d")
+	)
+	(no_connect
+		(at 53.34 27.94)
+		(uuid "851059b3-0911-4b0f-ab41-f8fc0796618f")
+	)
+	(no_connect
+		(at 53.34 20.32)
+		(uuid "bcd45c93-6b42-4b27-bb23-03959ed9ed02")
+	)
+	(no_connect
+		(at 17.78 30.48)
+		(uuid "c8c4bc23-f64f-4669-98c6-94531a9ca2c6")
+	)
+	(no_connect
+		(at 17.78 34.29)
+		(uuid "cd23c7fc-f765-4531-a730-a4788c71c0c0")
+	)
+	(no_connect
+		(at 17.78 20.32)
+		(uuid "de28fab8-d76d-4e4c-a07d-756034facd48")
+	)
+	(no_connect
+		(at 17.78 22.86)
+		(uuid "e0e4fe58-8bfd-48bf-a1bc-9b7db263441e")
+	)
+	(no_connect
+		(at 53.34 22.86)
+		(uuid "e1602658-4be5-419b-be82-66514fcf3ff8")
+	)
 	(sheet
 		(at 17.78 16.51)
-		(size 35.56 21.59)
+		(size 35.56 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -32,12 +64,92 @@
 			)
 		)
 		(property "Sheetfile" "clock_sources.kicad_sch"
-			(at 17.78 38.6846 0)
+			(at 17.78 37.4146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SCL" input
+			(at 17.78 27.94 180)
+			(uuid "e469362e-ba08-40a1-8b69-ee16c99b0006")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EXT_CLK_DIG_SEL" input
+			(at 17.78 20.32 180)
+			(uuid "48d95e18-b015-40a6-b103-4e53e3e3278e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CLOCK_UNCORE" output
+			(at 53.34 27.94 0)
+			(uuid "5ad255be-3e3b-45ba-a795-f7d07b385dfa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FS_EXT_SEL" input
+			(at 17.78 22.86 180)
+			(uuid "5be1e6a7-b3a9-4b05-b811-47a91b100cce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FS_EXT" output
+			(at 53.34 22.86 0)
+			(uuid "31977ce5-269a-4a31-8462-6be4edc8ddea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 17.78 30.48 180)
+			(uuid "109b6c26-e04e-47b7-9832-3d6d8572cd80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EXT_CLK_DIG" output
+			(at 53.34 20.32 0)
+			(uuid "15edfede-cd15-41b9-8307-1d26cbc70f2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FS_EXT_AUX" input
+			(at 17.78 34.29 180)
+			(uuid "a715db03-e1ba-4b58-84c4-bfc06b46e20d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
