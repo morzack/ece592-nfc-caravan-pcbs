@@ -2,9 +2,52 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 5b0c97ac-fa03-4db8-b41b-0eee32b6f55d)
+	(uuid "5b0c97ac-fa03-4db8-b41b-0eee32b6f55d")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 17.78 16.51)
+		(size 35.56 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "22c0ff7f-6fb8-476b-be54-e80d47691e23")
+		(property "Sheetname" "clock_sources"
+			(at 17.78 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sheetfile" "clock_sources.kicad_sch"
+			(at 17.78 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motherboard"
+				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
