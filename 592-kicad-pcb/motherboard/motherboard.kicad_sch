@@ -6,12 +6,36 @@
 	(paper "A4")
 	(lib_symbols)
 	(no_connect
+		(at 100.33 34.29)
+		(uuid "02d2e5a3-2432-4d6c-b1aa-cd07000345f6")
+	)
+	(no_connect
+		(at 66.04 53.34)
+		(uuid "0ee9a82d-bbf0-4926-a25f-3983d90d78cf")
+	)
+	(no_connect
+		(at 100.33 22.86)
+		(uuid "4cd027cb-e1c3-4543-865f-73e1eeabd3e2")
+	)
+	(no_connect
+		(at 66.04 20.32)
+		(uuid "571a5a44-75ca-40ea-be64-ef8e44ead346")
+	)
+	(no_connect
+		(at 100.33 48.26)
+		(uuid "6bc38674-e744-4d34-9ce9-3fe6a1feca06")
+	)
+	(no_connect
 		(at 17.78 27.94)
 		(uuid "6d8eb318-3d41-4603-8cff-07f053bfab3d")
 	)
 	(no_connect
 		(at 53.34 27.94)
 		(uuid "851059b3-0911-4b0f-ab41-f8fc0796618f")
+	)
+	(no_connect
+		(at 66.04 59.69)
+		(uuid "b5c1e850-1d34-4f0b-9f06-9d43bd5ac4e7")
 	)
 	(no_connect
 		(at 53.34 20.32)
@@ -36,6 +60,119 @@
 	(no_connect
 		(at 53.34 22.86)
 		(uuid "e1602658-4be5-419b-be82-66514fcf3ff8")
+	)
+	(no_connect
+		(at 66.04 31.75)
+		(uuid "e8840602-8493-4d86-b3ea-ae125ca25c37")
+	)
+	(no_connect
+		(at 100.33 53.34)
+		(uuid "ecce5451-2a88-4990-8614-ebba7264507b")
+	)
+	(no_connect
+		(at 66.04 25.4)
+		(uuid "f4711a0b-e8f1-4595-a43a-560473b5e228")
+	)
+	(no_connect
+		(at 100.33 27.94)
+		(uuid "fa39538b-e361-4622-95e3-9559d6670328")
+	)
+	(no_connect
+		(at 66.04 48.26)
+		(uuid "fedd2f97-221c-4636-aa0f-9508479553a0")
+	)
+	(sheet
+		(at 66.04 44.45)
+		(size 34.29 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1be5e80d-5a74-4ad9-b42f-508050f3350a")
+		(property "Sheetname" "chip_support_misc"
+			(at 66.04 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sheetfile" "chip_support_misc.kicad_sch"
+			(at 66.04 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO_RESET_EXT" input
+			(at 66.04 48.26 180)
+			(uuid "3e06703f-6871-422b-a0f4-dae19b5c5685")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VREF_EXT" output
+			(at 100.33 53.34 0)
+			(uuid "5e37ed15-f35f-494e-b63e-e2dc6ab8dfd0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RESET_EXT" output
+			(at 100.33 48.26 0)
+			(uuid "a8bfbe69-16a2-414b-8446-a48e55521c30")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VREF_DAC_OUT" input
+			(at 66.04 53.34 180)
+			(uuid "80367ac1-3495-4d7a-8b49-947bd41557d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VRECT_OUT_EXT" passive
+			(at 66.04 59.69 180)
+			(uuid "7577bbca-063d-49f6-b477-0857eb1695a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "motherboard"
+				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d"
+					(page "5")
+				)
+			)
+		)
 	)
 	(sheet
 		(at 17.78 16.51)
@@ -142,9 +279,9 @@
 				(justify right)
 			)
 		)
-		(pin "FS_EXT_AUX" input
+		(pin "CLK_DIG_GPIO_GEN" input
 			(at 17.78 34.29 180)
-			(uuid "a715db03-e1ba-4b58-84c4-bfc06b46e20d")
+			(uuid "e71de05e-87b1-40b1-9841-5f006e56280d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -156,6 +293,152 @@
 			(project "motherboard"
 				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 16.51)
+		(size 34.29 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9cc7bda2-6b63-4506-9986-d8a2a58c5915")
+		(property "Sheetname" "ana_buffers"
+			(at 66.04 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sheetfile" "ana_buffers.kicad_sch"
+			(at 66.04 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ANA_MUX_OUT_2" input
+			(at 66.04 25.4 180)
+			(uuid "e8a5099b-eda8-47d9-af30-077bdabfcafb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NFC_AFE_TDO_EXT" input
+			(at 66.04 31.75 180)
+			(uuid "b5a40426-5a58-4907-a42c-abecf69188c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ANA_MUX_OUT_1" input
+			(at 66.04 20.32 180)
+			(uuid "7d5e21b7-2193-4787-aab8-b576e0a43b64")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NFC_AFE_TDO_EXT_BUF" output
+			(at 100.33 34.29 0)
+			(uuid "b8aee535-f0f6-4c22-a446-cb9c23f3d05e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ANA_MUX_OUT_2_BUF" output
+			(at 100.33 27.94 0)
+			(uuid "9c7f42d6-7df8-4b1b-84ca-1beb5978ea1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ANA_MUX_OUT_1_BUF" output
+			(at 100.33 22.86 0)
+			(uuid "44776811-55cf-497a-9503-5caede26f3f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "motherboard"
+				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 44.45)
+		(size 35.56 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d6451fe0-7223-4dc8-a216-7efc3a379119")
+		(property "Sheetname" "debug_headers"
+			(at 17.78 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sheetfile" "debug_headers.kicad_sch"
+			(at 17.78 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motherboard"
+				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d"
+					(page "4")
 				)
 			)
 		)

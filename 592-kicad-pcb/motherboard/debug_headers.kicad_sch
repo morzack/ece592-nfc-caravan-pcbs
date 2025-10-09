@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3b9208fa-8310-41c5-bc8c-45e06e2d9394")
+	(paper "A4")
+	(lib_symbols)
+	(text "pins and such for off-board connections for debug\nultimately i expect all signals we want to route to edge-mount 2.54mm arrays like tt demo board"
+		(exclude_from_sim no)
+		(at 23.114 31.242 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5d9d7cda-4aaa-42e7-a079-706301fba936")
+	)
+)

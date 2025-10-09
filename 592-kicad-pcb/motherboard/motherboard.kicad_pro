@@ -416,6 +416,18 @@
     [
       "22c0ff7f-6fb8-476b-be54-e80d47691e23",
       "clock_sources"
+    ],
+    [
+      "9cc7bda2-6b63-4506-9986-d8a2a58c5915",
+      "ana_buffers"
+    ],
+    [
+      "d6451fe0-7223-4dc8-a216-7efc3a379119",
+      "debug_headers"
+    ],
+    [
+      "1be5e80d-5a74-4ad9-b42f-508050f3350a",
+      "chip_support_misc"
     ]
   ],
   "text_variables": {}
