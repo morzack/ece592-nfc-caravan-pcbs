@@ -9,20 +9,20 @@
 		(company "john kesler (jckesle2@ncsu.edu)")
 	)
 	(lib_symbols
-		(symbol "592-partslib:SMXS-04K"
+		(symbol "592-partslib:74LVC1T45GW"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 7.62 8.89 0)
+				(at 8.89 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "74LVC1T45GW"
+				(at 14.732 7.112 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -38,7 +38,179 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C478004.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74LVC1T45GW_0_1"
+				(rectangle
+					(start -7.62 6.35)
+					(end 7.62 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "74LVC1T45GW_1_1"
+				(pin power_in line
+					(at -10.16 3.81 0)
+					(length 2.54)
+					(name "VCCA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -1.27 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -3.81 0)
+					(length 2.54)
+					(name "DIR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 3.81 180)
+					(length 2.54)
+					(name "VCCB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "592-partslib:SMXS-04K"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 7.62 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMXS-04K-TP"
+				(at 14.224 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/product-detail/C5439763.html"
 				(at 0 0 0)
 				(effects
 					(font
@@ -230,7 +402,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "SN74LVC1G3157"
 				(at -19.05 5.08 0)
 				(effects
 					(font
@@ -248,7 +420,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C10426.pdf"
 				(at -19.05 5.08 0)
 				(effects
 					(font
@@ -1639,6 +1811,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "dig clock needs level shift to io"
+		(exclude_from_sim no)
+		(at 163.322 85.344 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0e9dd3ba-b5c6-4fc9-890a-38ab11c3861c")
+	)
 	(text "caps selected for 1khz bw\nreject switch bounce/bad mech perf"
 		(exclude_from_sim no)
 		(at 116.586 134.62 0)
@@ -1659,9 +1841,9 @@
 		)
 		(uuid "7c040f01-cfb6-4a42-b3fc-b93673c70555")
 	)
-	(text "resistors for EMI (optional)\ncontrol lines to 50ohm"
+	(text "resistors for EMI (optional)\ncontrol lines to 50ohm\nTODO proper termination at chip"
 		(exclude_from_sim no)
-		(at 76.962 81.026 0)
+		(at 77.978 81.026 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1669,6 +1851,16 @@
 			(justify left)
 		)
 		(uuid "ab197642-d1b2-47ca-8345-2f11acc4cd26")
+	)
+	(text "TODO check capacitance needed"
+		(exclude_from_sim no)
+		(at 33.274 60.452 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bab1ab4f-1b30-4a2c-85ec-9798b7e00683")
 	)
 	(text "GPIO also connects to *SEL pins\nin open-drain to drive PDN to ground"
 		(exclude_from_sim no)
@@ -1704,6 +1896,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "54e1a453-6248-49c5-8708-bdbc055e11d1")
+	)
+	(junction
+		(at 161.29 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85792cc9-985b-4708-9362-7ef25473a192")
 	)
 	(junction
 		(at 121.92 76.2)
@@ -1883,6 +2081,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 74.93) (xy 161.29 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3194f918-c673-4989-adf2-96fdf7cdc341")
+	)
+	(wire
+		(pts
 			(xy 111.76 107.95) (xy 124.46 107.95)
 		)
 		(stroke
@@ -1993,6 +2201,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 58.42) (xy 173.99 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51945cfe-88b1-4642-8383-1a906a01a40a")
+	)
+	(wire
+		(pts
 			(xy 121.92 73.66) (xy 125.73 73.66)
 		)
 		(stroke
@@ -2000,6 +2218,16 @@
 			(type default)
 		)
 		(uuid "53756b80-cb25-479f-b25f-eaada7c38b0d")
+	)
+	(wire
+		(pts
+			(xy 171.45 66.04) (xy 177.8 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56981ce8-facc-4dd1-b4bb-0ce62b8c5613")
 	)
 	(wire
 		(pts
@@ -2040,6 +2268,16 @@
 			(type default)
 		)
 		(uuid "68f30ff2-57a0-47e2-834b-35fcb5bec06b")
+	)
+	(wire
+		(pts
+			(xy 148.59 60.96) (xy 151.13 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69ed1272-ebf1-4633-ae2d-6c849fd796df")
 	)
 	(wire
 		(pts
@@ -2183,6 +2421,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 68.58) (xy 173.99 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a980878-015e-45dc-ac1b-4504a7649452")
+	)
+	(wire
+		(pts
 			(xy 27.94 76.2) (xy 27.94 77.47)
 		)
 		(stroke
@@ -2193,6 +2441,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 58.42) (xy 148.59 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa26ac4b-48cd-46f0-aa1f-ca8b7d75c193")
+	)
+	(wire
+		(pts
 			(xy 134.62 85.09) (xy 134.62 86.36)
 		)
 		(stroke
@@ -2200,6 +2458,16 @@
 			(type default)
 		)
 		(uuid "ac31689b-be40-4dd0-9b9b-caefd4ad920e")
+	)
+	(wire
+		(pts
+			(xy 171.45 60.96) (xy 173.99 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae787906-13d6-458a-a772-ea3d0c79f0fc")
 	)
 	(wire
 		(pts
@@ -2230,6 +2498,16 @@
 			(type default)
 		)
 		(uuid "b38487a0-5a50-4da8-8b48-c4dad106f661")
+	)
+	(wire
+		(pts
+			(xy 161.29 73.66) (xy 161.29 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b394bc81-d46f-4f01-a967-cefc916f2dc7")
 	)
 	(wire
 		(pts
@@ -2273,6 +2551,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 68.58) (xy 173.99 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3861d8b-db62-4b0c-a657-e860042b7902")
+	)
+	(wire
+		(pts
 			(xy 123.19 111.76) (xy 124.46 111.76)
 		)
 		(stroke
@@ -2280,6 +2568,16 @@
 			(type default)
 		)
 		(uuid "c4cdd4fd-a885-43f7-ba66-4f7ddaf11640")
+	)
+	(wire
+		(pts
+			(xy 143.51 66.04) (xy 151.13 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c501c0b6-2562-4a50-8524-43f40e2dec48")
 	)
 	(wire
 		(pts
@@ -2320,6 +2618,16 @@
 			(type default)
 		)
 		(uuid "d152ccb2-3629-4a07-940e-f48701128781")
+	)
+	(wire
+		(pts
+			(xy 173.99 74.93) (xy 161.29 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d16d5431-f262-48d0-af94-11931bd7acfc")
 	)
 	(wire
 		(pts
@@ -2423,16 +2731,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 66.04) (xy 146.05 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e615170e-1cfc-47ad-9afb-abce5da48972")
-	)
-	(wire
-		(pts
 			(xy 143.51 33.02) (xy 146.05 33.02)
 		)
 		(stroke
@@ -2502,7 +2800,7 @@
 		(uuid "fab68880-a10b-40ac-a1be-2a3b9284a4bc")
 	)
 	(label "EXT_CLK_DIG"
-		(at 146.05 66.04 0)
+		(at 177.8 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3691,7 +3989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C5439763.html"
 			(at 134.62 36.83 0)
 			(effects
 				(font
@@ -3806,6 +4104,153 @@
 			(project ""
 				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d/22c0ff7f-6fb8-476b-be54-e80d47691e23"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 173.99 58.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a9d9dee-4915-4a2a-ac8e-c86b6124f572")
+		(property "Reference" "#PWR043"
+			(at 173.99 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 173.99 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 173.99 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a938957a-bc81-405e-9cb3-6140d4071b50")
+		)
+		(instances
+			(project "motherboard"
+				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d/22c0ff7f-6fb8-476b-be54-e80d47691e23"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "592-partslib:74LVC1T45GW")
+		(at 161.29 64.77 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c254652-1306-461d-b81f-8d192d3adeb8")
+		(property "Reference" "U8"
+			(at 161.036 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1T45GW"
+			(at 160.782 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C478004.pdf"
+			(at 161.29 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "96b6edc7-838e-48d3-be21-f6d4cce45f89")
+		)
+		(pin "1"
+			(uuid "edfea8cd-5a3f-4093-a189-a8677e2ff58b")
+		)
+		(pin "3"
+			(uuid "685e333d-9c2c-42aa-bff0-fc60b281f123")
+		)
+		(pin "6"
+			(uuid "e946ad32-a415-4538-a6e1-0a020a5c02e5")
+		)
+		(pin "2"
+			(uuid "92b82166-78a8-469f-853c-267a0e848c88")
+		)
+		(pin "5"
+			(uuid "f3c830b6-24d2-47e6-a5ba-d88053bc28ff")
+		)
+		(instances
+			(project "motherboard"
+				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d/22c0ff7f-6fb8-476b-be54-e80d47691e23"
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -3977,7 +4422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C10426.pdf"
 			(at 115.57 109.22 0)
 			(effects
 				(font
@@ -4372,7 +4817,7 @@
 		(dnp no)
 		(uuid "abd54a72-22d2-4746-947a-58eacb69e248")
 		(property "Reference" "U3"
-			(at 144.018 59.69 0)
+			(at 112.776 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4380,7 +4825,7 @@
 			)
 		)
 		(property "Value" "SN74LVC1G3157DBVR"
-			(at 152.4 62.1598 0)
+			(at 121.158 55.8098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4396,7 +4841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C10426.pdf"
 			(at 115.57 63.5 0)
 			(effects
 				(font
@@ -4436,6 +4881,73 @@
 			(project "motherboard"
 				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d/22c0ff7f-6fb8-476b-be54-e80d47691e23"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.29 76.2 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac81dfcf-804d-47ed-87fc-b4611b749b45")
+		(property "Reference" "#PWR042"
+			(at 161.29 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b14f405-fb2f-4fc2-83e1-ec9070b8026a")
+		)
+		(instances
+			(project "motherboard"
+				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d/22c0ff7f-6fb8-476b-be54-e80d47691e23"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -4903,6 +5415,73 @@
 			(project "motherboard"
 				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d/22c0ff7f-6fb8-476b-be54-e80d47691e23"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 148.59 58.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee578d55-db4c-4291-8546-46aa4c7cee7f")
+		(property "Reference" "#PWR041"
+			(at 148.59 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 148.59 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 148.59 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "549204d8-8a3c-43cb-86b0-813a68455bad")
+		)
+		(instances
+			(project "motherboard"
+				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d/22c0ff7f-6fb8-476b-be54-e80d47691e23"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)

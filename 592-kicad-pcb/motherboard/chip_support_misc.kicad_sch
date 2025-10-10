@@ -10,15 +10,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 9.144 7.874 0)
+				(at 8.89 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "74LVC1T45GW"
+				(at 14.732 7.112 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -34,7 +34,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C478004.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -177,36 +177,50 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "74xGxx:NC7SVU04P5X"
+		(symbol "74xGxx:SN74LVC1G14DBV"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -5.08 10.16 0)
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "NC7SVU04P5X"
-				(at 15.24 10.16 0)
+			(property "Value" "SN74LVC1G14DBV"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-				(at 0 -12.7 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NC7SVU04-D.pdf"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single Schmitt NOT Gate, Low-Voltage CMOS, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -215,7 +229,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "High-Speed Logic Inverter, SOT-353"
+			(property "ki_keywords" "Single Gate NOT Schmitt LVC CMOS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -224,7 +238,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "inverter"
+			(property "ki_fp_filters" "SOT*23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -233,19 +247,10 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT*353*SC*70*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NC7SVU04P5X_0_1"
+			(symbol "SN74LVC1G14DBV_0_1"
 				(polyline
 					(pts
-						(xy -5.08 7.62) (xy -5.08 -7.62) (xy 10.16 0) (xy -5.08 7.62)
+						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
 					)
 					(stroke
 						(width 0.254)
@@ -255,9 +260,12 @@
 						(type background)
 					)
 				)
-				(circle
-					(center 11.43 0)
-					(radius 1.27)
+			)
+			(symbol "SN74LVC1G14DBV_1_1"
+				(polyline
+					(pts
+						(xy -3.81 -1.27) (xy -1.27 -1.27) (xy -1.27 1.27)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -266,11 +274,21 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "NC7SVU04P5X_1_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy -2.54 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin input line
-					(at -10.16 0 0)
-					(length 5.08)
+					(at -15.24 0 0)
+					(length 7.62)
 					(name "~"
 						(effects
 							(font
@@ -286,44 +304,8 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 10.16 270)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin no_connect line
-					(at 10.16 0 180)
+					(at -7.62 5.08 180)
 					(length 5.08)
 					(hide yes)
 					(name "NC"
@@ -341,9 +323,45 @@
 						)
 					)
 				)
-				(pin output line
-					(at 17.78 0 180)
+				(pin power_in line
+					(at -5.08 10.16 270)
 					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 12.7 0 180)
+					(length 7.62)
 					(name "~"
 						(effects
 							(font
@@ -352,119 +370,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector_Generic:Conn_01x01"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1548,7 +1453,7 @@
 		)
 		(uuid "219effde-b5c9-4638-b622-df699d5b648e")
 	)
-	(text "DAC can drive exact value for tuning\nnominal 1.2V\nalso include off-board drive option w/ jumper to select"
+	(text "DAC can drive exact value for tuning\nnominal 1.2V\nalso include off-board drive option w/ jumper to select\ni forgor why not SPDT chip?"
 		(exclude_from_sim no)
 		(at 95.25 67.818 0)
 		(effects
@@ -1793,6 +1698,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 100.33) (xy 138.43 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73128afc-fe35-4af7-8e38-ab063e0c6d36")
+	)
+	(wire
+		(pts
 			(xy 68.58 93.98) (xy 68.58 96.52)
 		)
 		(stroke
@@ -1890,16 +1805,6 @@
 			(type default)
 		)
 		(uuid "aee83c77-c46d-405c-a756-e9de65ae309a")
-	)
-	(wire
-		(pts
-			(xy 104.14 49.53) (xy 104.14 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4c8f112-471b-4f6b-87a5-029c55821298")
 	)
 	(wire
 		(pts
@@ -2021,6 +1926,16 @@
 		)
 		(uuid "0107288a-4692-4d90-a01f-0b46e25c4db5")
 	)
+	(label "VREF_EXT_IN"
+		(at 135.89 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "14915915-b9fa-4fb5-98b1-35ba222907e1")
+	)
 	(label "VREF_DAC_OUT"
 		(at 135.89 92.71 180)
 		(effects
@@ -2121,6 +2036,17 @@
 		)
 		(uuid "f13a4998-12fa-4e33-a19f-e0e5571619c3")
 	)
+	(hierarchical_label "VREF_EXT_IN"
+		(shape input)
+		(at 138.43 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3b9b7b32-aa4b-4275-b388-3366919963da")
+	)
 	(hierarchical_label "VREF_EXT"
 		(shape output)
 		(at 138.43 95.25 0)
@@ -2141,7 +2067,7 @@
 			)
 			(justify left)
 		)
-		(uuid "c1282080-57f3-4f2c-8255-125ede8ae02a")
+		(uuid "c1282080-57f3-4f2c-8255-125ede8ae02b")
 	)
 	(hierarchical_label "GPIO_RESET_EXT"
 		(shape input)
@@ -2152,7 +2078,7 @@
 			)
 			(justify left)
 		)
-		(uuid "c1282080-57f3-4f2c-8255-125ede8ae02a")
+		(uuid "c1282080-57f3-4f2c-8255-125ede8ae02c")
 	)
 	(hierarchical_label "RESET_EXT"
 		(shape output)
@@ -2163,7 +2089,7 @@
 			)
 			(justify left)
 		)
-		(uuid "c1282080-57f3-4f2c-8255-125ede8ae02a")
+		(uuid "c1282080-57f3-4f2c-8255-125ede8ae02d")
 	)
 	(hierarchical_label "VRECT_OUT_EXT"
 		(shape passive)
@@ -2174,7 +2100,7 @@
 			)
 			(justify left)
 		)
-		(uuid "c1282080-57f3-4f2c-8255-125ede8ae02a")
+		(uuid "c1282080-57f3-4f2c-8255-125ede8ae02e")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -2241,6 +2167,85 @@
 			(project ""
 				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d/1be5e80d-5a74-4ad9-b42f-508050f3350a"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:SN74LVC1G14DBV")
+		(at 55.88 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2397a872-f111-4016-8ccc-d4bf55381c80")
+		(property "Reference" "U9"
+			(at 60.706 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74LVC1G14DBV"
+			(at 60.706 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 55.88 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf"
+			(at 55.88 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Schmitt NOT Gate, Low-Voltage CMOS, SOT-23"
+			(at 55.88 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d5b514b7-d2a4-4b4f-833f-a30536b04965")
+		)
+		(pin "2"
+			(uuid "70aec4fc-0011-478e-9950-f3c6df3e9369")
+		)
+		(pin "1"
+			(uuid "9894892f-a5f9-4331-8a98-140e7653ecdf")
+		)
+		(pin "5"
+			(uuid "090e030e-189b-45cc-a4dc-c7f6f4eae8d3")
+		)
+		(pin "3"
+			(uuid "1b375238-bd3a-4c44-8191-667757c6f50d")
+		)
+		(instances
+			(project ""
+				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d/1be5e80d-5a74-4ad9-b42f-508050f3350a"
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -2314,89 +2319,13 @@
 		)
 	)
 	(symbol
-		(lib_id "74xGxx:NC7SVU04P5X")
-		(at 50.8 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "51da71da-259f-4b82-ae8f-04d133bca780")
-		(property "Reference" "U7"
-			(at 58.42 92.964 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NC7SVU04P5X"
-			(at 60.198 95.504 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 50.8 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NC7SVU04-D.pdf"
-			(at 50.8 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High-Speed Logic Inverter, SOT-353"
-			(at 50.8 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "6a2e433b-e65f-44cc-906a-bf4d840fc98a")
-		)
-		(pin "5"
-			(uuid "ef909842-9baf-44ce-83ea-4946f77cd896")
-		)
-		(pin "2"
-			(uuid "43cee03d-64ac-4a40-b666-f9de32c85b46")
-		)
-		(pin "1"
-			(uuid "dc90df6b-cafa-45e1-9fea-e2b8744f2056")
-		)
-		(pin "4"
-			(uuid "16d82f01-e4ba-4058-951e-01ac71841769")
-		)
-		(instances
-			(project ""
-				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d/1be5e80d-5a74-4ad9-b42f-508050f3350a"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 34.29 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5e78fd67-a36f-4579-81e5-af926ae28fa3")
 		(property "Reference" "C8"
@@ -2736,73 +2665,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 104.14 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8fbcc411-8900-47f9-b74b-069110b3ab11")
-		(property "Reference" "J7"
-			(at 106.68 43.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 106.68 45.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 104.14 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "828cafa4-ae2a-4969-80d6-4f32cd2b31b8")
-		)
-		(instances
-			(project ""
-				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d/1be5e80d-5a74-4ad9-b42f-508050f3350a"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V8")
 		(at 93.98 93.98 0)
 		(mirror y)
@@ -2973,7 +2835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C478004.pdf"
 			(at 81.28 100.33 0)
 			(effects
 				(font
