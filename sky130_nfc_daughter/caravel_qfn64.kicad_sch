@@ -1,0 +1,1500 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "72f9423a-f4c6-4c65-858e-28549c245bfa")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Caravel_board:Caravel_QFN"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Caravel_QFN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP7.65x7.65mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Caravel_QFN_0_1"
+				(rectangle
+					(start -26.67 40.64)
+					(end 24.13 -33.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Caravel_QFN_1_1"
+				(pin power_in line
+					(at -29.21 30.48 0)
+					(length 2.54)
+					(name "ThermalPad"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "65"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -29.21 22.86 0)
+					(length 2.54)
+					(name "vssa2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -29.21 20.32 0)
+					(length 2.54)
+					(name "mprj_io[25]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -29.21 17.78 0)
+					(length 2.54)
+					(name "mprj_io[26]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -29.21 15.24 0)
+					(length 2.54)
+					(name "mprj_io[27]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -29.21 12.7 0)
+					(length 2.54)
+					(name "mprj_io[28]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -29.21 10.16 0)
+					(length 2.54)
+					(name "mprj_io[29]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -29.21 7.62 0)
+					(length 2.54)
+					(name "mprj_io[30]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -29.21 5.08 0)
+					(length 2.54)
+					(name "mprj_io[31]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -29.21 2.54 0)
+					(length 2.54)
+					(name "vdda2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -29.21 0 0)
+					(length 2.54)
+					(name "vssd2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -29.21 -2.54 0)
+					(length 2.54)
+					(name "mprj_io[32]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -29.21 -5.08 0)
+					(length 2.54)
+					(name "mprj_io[33]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -29.21 -7.62 0)
+					(length 2.54)
+					(name "mprj_io[34]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -29.21 -10.16 0)
+					(length 2.54)
+					(name "mprj_io[35]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -29.21 -12.7 0)
+					(length 2.54)
+					(name "mprj_io[36]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -29.21 -15.24 0)
+					(length 2.54)
+					(name "mprj_io[37]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -16.51 43.18 270)
+					(length 2.54)
+					(name "vddio"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "64"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -16.51 -35.56 90)
+					(length 2.54)
+					(name "vddio"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -13.97 43.18 270)
+					(length 2.54)
+					(name "vccd2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "63"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -13.97 -35.56 90)
+					(length 2.54)
+					(name "vccd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -11.43 43.18 270)
+					(length 2.54)
+					(name "mprj_io[24]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "62"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -11.43 -35.56 90)
+					(length 2.54)
+					(name "N/C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 43.18 270)
+					(length 2.54)
+					(name "mprj_io[23]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "61"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -8.89 -35.56 90)
+					(length 2.54)
+					(name "vssa"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -6.35 43.18 270)
+					(length 2.54)
+					(name "mprj_io[22]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "60"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -35.56 90)
+					(length 2.54)
+					(name "resetb"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -3.81 43.18 270)
+					(length 2.54)
+					(name "mprj_io[21]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "59"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 -35.56 90)
+					(length 2.54)
+					(name "clock"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -1.27 43.18 270)
+					(length 2.54)
+					(name "mprj_io[20]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "58"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -1.27 -35.56 90)
+					(length 2.54)
+					(name "vssd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 1.27 43.18 270)
+					(length 2.54)
+					(name "mprj_io[19]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "57"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 1.27 -35.56 90)
+					(length 2.54)
+					(name "flash_csb"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 3.81 43.18 270)
+					(length 2.54)
+					(name "vssio"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 3.81 -35.56 90)
+					(length 2.54)
+					(name "flash_clk"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 43.18 270)
+					(length 2.54)
+					(name "mprj_io[18]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 6.35 -35.56 90)
+					(length 2.54)
+					(name "flash_io0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 43.18 270)
+					(length 2.54)
+					(name "mprj_io[17]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 8.89 -35.56 90)
+					(length 2.54)
+					(name "flash_io1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 43.18 270)
+					(length 2.54)
+					(name "mprj_io[16]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 11.43 -35.56 90)
+					(length 2.54)
+					(name "gpio"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 13.97 43.18 270)
+					(length 2.54)
+					(name "vssa1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 13.97 -35.56 90)
+					(length 2.54)
+					(name "vssio"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 16.51 43.18 270)
+					(length 2.54)
+					(name "mprj_io[15]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 16.51 -35.56 90)
+					(length 2.54)
+					(name "vdda"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 19.05 43.18 270)
+					(length 2.54)
+					(name "mprj_io[14]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 19.05 -35.56 90)
+					(length 2.54)
+					(name "mprj_io[0]_JTAG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 21.59 43.18 270)
+					(length 2.54)
+					(name "vccd1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 21.59 -35.56 90)
+					(length 2.54)
+					(name "mprj_io[1]_SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 22.86 180)
+					(length 2.54)
+					(name "mprj_io[13]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 26.67 20.32 180)
+					(length 2.54)
+					(name "vdda1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 17.78 180)
+					(length 2.54)
+					(name "mprj_io[12]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 15.24 180)
+					(length 2.54)
+					(name "mprj_io[11]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 12.7 180)
+					(length 2.54)
+					(name "mprj_io[10]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 10.16 180)
+					(length 2.54)
+					(name "mprj_io[9]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 7.62 180)
+					(length 2.54)
+					(name "mprj_io[8]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 5.08 180)
+					(length 2.54)
+					(name "mprj_io[7]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 26.67 2.54 180)
+					(length 2.54)
+					(name "vdda1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 26.67 0 180)
+					(length 2.54)
+					(name "vssd1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 26.67 -2.54 180)
+					(length 2.54)
+					(name "vssa1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 -5.08 180)
+					(length 2.54)
+					(name "mprj_io[6]_ser_tx"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 -7.62 180)
+					(length 2.54)
+					(name "mprj_io[5]_ser_rx"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 -10.16 180)
+					(length 2.54)
+					(name "mprj_io[4]_SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 -12.7 180)
+					(length 2.54)
+					(name "mprj_io[3]_CSB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 26.67 -15.24 180)
+					(length 2.54)
+					(name "mprj_io[2]_SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "Caravel_board:Caravel_QFN")
+		(at 139.7 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c40f7f62-91b3-41ca-a6ab-dc640f56fb5e")
+		(property "Reference" "U3"
+			(at 171.45 67.2398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Caravel_QFN"
+			(at 171.45 69.7798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP7.65x7.65mm"
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "50"
+			(uuid "ae97acbb-c43c-4d24-b30c-8e8591929b2f")
+		)
+		(pin "9"
+			(uuid "799fb46e-4db9-4722-9642-cff03687db9e")
+		)
+		(pin "14"
+			(uuid "184e71c8-e99e-4d24-a8fa-971e3b34494b")
+		)
+		(pin "16"
+			(uuid "73e2edf1-d393-42d2-9fb0-3aa51d7c941c")
+		)
+		(pin "2"
+			(uuid "eba8e7f3-d0d2-4c1b-9377-8d6370d90b1c")
+		)
+		(pin "10"
+			(uuid "ca4de2e9-b4cb-4fb1-805b-5df271b6629e")
+		)
+		(pin "3"
+			(uuid "0e496da9-9fe9-4643-85d3-831e3b6b2f21")
+		)
+		(pin "4"
+			(uuid "ebe7c63f-9dfb-4669-9a1d-c9c8b003d626")
+		)
+		(pin "7"
+			(uuid "c8bb793f-6513-4cd1-9a3b-346a388af4e7")
+		)
+		(pin "6"
+			(uuid "c12c5ca0-cd1c-4c4f-b2aa-c776d17f86ea")
+		)
+		(pin "65"
+			(uuid "be923de5-6365-48a1-862f-41677ea47221")
+		)
+		(pin "5"
+			(uuid "da678d04-8986-48e2-8e50-78ad84164315")
+		)
+		(pin "8"
+			(uuid "d33f1f7d-9619-4346-b46d-61e2cbe78f90")
+		)
+		(pin "11"
+			(uuid "ea8f94b3-7248-4aae-9959-f28b343f03ed")
+		)
+		(pin "12"
+			(uuid "c31c9cf0-c76a-4062-9869-71c20eb8fbfd")
+		)
+		(pin "1"
+			(uuid "faf8a298-13a3-49a1-8900-975e6957c936")
+		)
+		(pin "13"
+			(uuid "3c910fd3-49f2-485d-80f2-c40deb88417c")
+		)
+		(pin "15"
+			(uuid "dcb0991b-f631-45ac-af77-21cf1d88eae6")
+		)
+		(pin "17"
+			(uuid "fbf532d4-1b25-4d3a-8710-f52c4666267e")
+		)
+		(pin "18"
+			(uuid "a14a419e-e28f-4458-a0fb-2e257acfb218")
+		)
+		(pin "64"
+			(uuid "df11d61d-9184-4b33-ab9d-8a615bfd4f2c")
+		)
+		(pin "62"
+			(uuid "2f29ba4e-d3b7-4797-a8a2-9604169b41d6")
+		)
+		(pin "19"
+			(uuid "273728df-f36f-40dc-818f-9fd3085920e8")
+		)
+		(pin "63"
+			(uuid "e316d7fe-6cb5-4720-a07f-81684c796ffd")
+		)
+		(pin "61"
+			(uuid "7ddc44ec-8b99-49e0-9098-dda967ec4313")
+		)
+		(pin "52"
+			(uuid "629e1f62-3776-4646-bcdf-e75c3b003610")
+		)
+		(pin "25"
+			(uuid "70a8a154-15e6-4220-a494-5a041e4431b7")
+		)
+		(pin "30"
+			(uuid "2094b339-8e90-4322-9b16-37967043e4ab")
+		)
+		(pin "23"
+			(uuid "3bd789b8-83dd-403b-9c94-7c2a0c5fe947")
+		)
+		(pin "29"
+			(uuid "b73c1b0f-8fbf-4230-88d5-3c45bf041e15")
+		)
+		(pin "22"
+			(uuid "45dc88f3-c953-4ecb-8daf-4cbcdcc3c166")
+		)
+		(pin "58"
+			(uuid "9142af6b-c4c4-4c76-95d2-15f781e3ab7d")
+		)
+		(pin "51"
+			(uuid "03fadf51-2d17-4b99-8702-c52e011da959")
+		)
+		(pin "24"
+			(uuid "0a6f5454-f6c5-4f4d-ba26-7d12c7630859")
+		)
+		(pin "57"
+			(uuid "dbceae11-f1b6-4e0e-aa69-23d569b7090d")
+		)
+		(pin "60"
+			(uuid "e2ab3586-6ccb-4be5-9b27-4ecc62118ffa")
+		)
+		(pin "21"
+			(uuid "11b5c9b0-7542-4e44-a66a-1a958906dd9b")
+		)
+		(pin "59"
+			(uuid "1eba2e5b-b7f2-4f56-985a-8122c201b806")
+		)
+		(pin "20"
+			(uuid "4afd528b-a132-4bbd-8616-a8580f7a34c9")
+		)
+		(pin "56"
+			(uuid "0f234d1e-8b33-4299-9ba7-5e2d6149ede3")
+		)
+		(pin "55"
+			(uuid "3ffe5ae6-d73b-4653-8fc5-e5da80ee52f1")
+		)
+		(pin "26"
+			(uuid "95644dd7-303a-418a-b0de-4d965acb587d")
+		)
+		(pin "54"
+			(uuid "7b616f31-6f56-4945-a335-08d8c5a752e8")
+		)
+		(pin "27"
+			(uuid "52b3d67e-c46b-446f-91a0-9d6d08fea956")
+		)
+		(pin "53"
+			(uuid "82e23cc2-cd89-4b80-a349-410520d7d9d4")
+		)
+		(pin "28"
+			(uuid "ba5a6f9c-c83a-4c3f-8f62-ed247039e7ce")
+		)
+		(pin "43"
+			(uuid "0504e667-3138-4a5c-a796-5bff84ee773f")
+		)
+		(pin "36"
+			(uuid "523f3637-fcd4-49aa-93ba-46f013322f4f")
+		)
+		(pin "44"
+			(uuid "00ade593-5d23-4dbd-b00b-751f9a77daab")
+		)
+		(pin "45"
+			(uuid "1073ff72-60cf-4fc7-8e23-c8283572ccee")
+		)
+		(pin "48"
+			(uuid "3461d0af-cf28-4e19-9f7f-7752e1024e3f")
+		)
+		(pin "39"
+			(uuid "abf352a5-7b08-4c9e-ae19-4cce0deba220")
+		)
+		(pin "38"
+			(uuid "d3c33ec4-2cf6-4580-b633-9bca038fb571")
+		)
+		(pin "49"
+			(uuid "d89f9a57-4923-47c2-8b48-474930f11118")
+		)
+		(pin "32"
+			(uuid "6c160394-4eae-4962-b3ca-0444b048148f")
+		)
+		(pin "31"
+			(uuid "25dd1f36-ca88-4697-9921-0ee13f14bd41")
+		)
+		(pin "46"
+			(uuid "303169bf-b831-419f-aa61-0a0ef0a90641")
+		)
+		(pin "42"
+			(uuid "e527ce6b-4b26-4e05-9adf-2502a6409b8a")
+		)
+		(pin "41"
+			(uuid "4606c24b-2508-4f77-8abb-fd885f4e5929")
+		)
+		(pin "47"
+			(uuid "c28e6ebe-5657-4f24-9568-bb652d199c71")
+		)
+		(pin "37"
+			(uuid "318cf285-aa3b-46b3-84a3-d3b5e37e6a9d")
+		)
+		(pin "40"
+			(uuid "5f48e0ea-4e45-4289-afe2-d310c9fc88bb")
+		)
+		(pin "35"
+			(uuid "cb23b085-af51-4f91-8ea6-d373a0dd6095")
+		)
+		(pin "34"
+			(uuid "4d8d5114-08d4-44fc-bacd-6256f17ecdec")
+		)
+		(pin "33"
+			(uuid "76d48d7d-e250-43a1-81aa-5acec0705acb")
+		)
+		(instances
+			(project ""
+				(path "/b38c65ac-2d57-46f9-9a32-ad09573ee400/745f61a8-4a2a-4905-910c-8cf0ade1c3de"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
