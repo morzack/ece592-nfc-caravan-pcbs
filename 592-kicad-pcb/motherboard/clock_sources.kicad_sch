@@ -3434,7 +3434,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 41.91 66.04 0)
 			(effects
 				(font
@@ -3507,7 +3507,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 118.11 121.92 0)
 			(effects
 				(font
@@ -3643,7 +3643,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 27.94 73.66 0)
 			(effects
 				(font
@@ -3710,7 +3710,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 80.01 76.2 0)
 			(effects
 				(font
@@ -3777,7 +3777,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 80.01 66.04 0)
 			(effects
 				(font
@@ -3847,7 +3847,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 121.92 127 0)
 			(effects
 				(font
@@ -3980,7 +3980,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "592-partslib:SMXS-04K-TP"
 			(at 134.62 36.83 0)
 			(effects
 				(font
@@ -4067,7 +4067,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
 			(at 109.22 107.95 0)
 			(effects
 				(font
@@ -4202,7 +4202,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 161.29 64.77 0)
 			(effects
 				(font
@@ -4413,7 +4413,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 115.57 109.22 0)
 			(effects
 				(font
@@ -4625,7 +4625,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 118.11 76.2 0)
 			(effects
 				(font
@@ -4695,7 +4695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 55.88 49.53 0)
 			(effects
 				(font
@@ -4765,7 +4765,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 68.58 49.53 0)
 			(effects
 				(font
@@ -4832,7 +4832,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 115.57 63.5 0)
 			(effects
 				(font
@@ -5044,7 +5044,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 80.01 71.12 0)
 			(effects
 				(font
@@ -5180,7 +5180,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 35.56 73.66 0)
 			(effects
 				(font
@@ -5515,7 +5515,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 121.92 81.28 0)
 			(effects
 				(font
