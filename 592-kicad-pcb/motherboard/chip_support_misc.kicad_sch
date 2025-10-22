@@ -1442,7 +1442,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "need some kind of inverter to handle open-drain config in parallel with push-switch\nTODO figure this out"
+	(text "GPIO_RESET_EXT in open-drain"
 		(exclude_from_sim no)
 		(at 32.258 128.016 0)
 		(effects
@@ -1452,6 +1452,16 @@
 			(justify left)
 		)
 		(uuid "219effde-b5c9-4638-b622-df699d5b648e")
+	)
+	(text "RESET_EXT to NFC chip is an active-high pulse"
+		(exclude_from_sim no)
+		(at 103.124 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "80839cb0-c6aa-49fd-a5bf-2d74150e1ccd")
 	)
 	(text "DAC can drive exact value for tuning\nnominal 1.2V\nalso include off-board drive option w/ jumper to select\ni forgor why not SPDT chip?"
 		(exclude_from_sim no)
