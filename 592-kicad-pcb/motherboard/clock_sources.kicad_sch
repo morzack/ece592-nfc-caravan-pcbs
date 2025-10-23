@@ -1821,16 +1821,6 @@
 		)
 		(uuid "0e9dd3ba-b5c6-4fc9-890a-38ab11c3861c")
 	)
-	(text "caps selected for 1khz bw\nreject switch bounce/bad mech perf"
-		(exclude_from_sim no)
-		(at 137.16 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3d4e7b5d-c08b-4e48-a98e-e4c03293ab77")
-	)
 	(text "1khz dbnce\npull up"
 		(exclude_from_sim no)
 		(at 209.804 35.052 0)
@@ -1906,6 +1896,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41d90148-ae49-49ae-a488-3cdbc646524c")
+	)
+	(junction
+		(at 144.78 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c19ef5c-9576-455f-967f-2435b0aab17c")
 	)
 	(junction
 		(at 148.59 35.56)
@@ -2153,7 +2149,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 114.3) (xy 149.86 114.3)
+			(xy 137.16 114.3) (xy 144.78 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2533,6 +2529,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 104.14) (xy 144.78 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94c21268-24dd-48c7-9b63-a6d8e415da1a")
+	)
+	(wire
+		(pts
 			(xy 148.59 125.73) (xy 151.13 125.73)
 		)
 		(stroke
@@ -2703,6 +2709,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 114.3) (xy 149.86 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd31412b-34cb-4c3c-9991-55000162ded8")
+	)
+	(wire
+		(pts
 			(xy 132.08 114.3) (xy 130.81 114.3)
 		)
 		(stroke
@@ -2710,6 +2726,16 @@
 			(type default)
 		)
 		(uuid "beb83fb2-ef6b-4ba1-8691-e99bce96596e")
+	)
+	(wire
+		(pts
+			(xy 144.78 111.76) (xy 144.78 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c15051c9-4059-445c-976b-76d12cb72bb1")
 	)
 	(wire
 		(pts
@@ -3568,6 +3594,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 144.78 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c0b35f8-3802-4534-b1fa-4e9acb838134")
+		(property "Reference" "#PWR085"
+			(at 144.78 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b096eb5-dcb5-4c22-8961-ad40cbee58f9")
+		)
+		(instances
+			(project "motherboard"
+				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d/22c0ff7f-6fb8-476b-be54-e80d47691e23"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 91.44 82.55 90)
 		(unit 1)
@@ -3899,6 +3991,74 @@
 			(project ""
 				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d/22c0ff7f-6fb8-476b-be54-e80d47691e23"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 144.78 109.22 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60543a3f-11d1-451a-bbb1-f2e05e90c94b")
+		(property "Reference" "R32"
+			(at 140.716 109.22 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 142.748 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 144.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 144.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d51992ed-6b75-477d-b91e-94e09957ef38")
+		)
+		(pin "1"
+			(uuid "8049f5cf-f97e-40bc-b02c-1046914b1574")
+		)
+		(instances
+			(project "motherboard"
+				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d/22c0ff7f-6fb8-476b-be54-e80d47691e23"
+					(reference "R32")
 					(unit 1)
 				)
 			)
