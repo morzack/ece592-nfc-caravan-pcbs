@@ -8108,6 +8108,17 @@
 		)
 		(uuid "32b854a8-0437-48a6-b930-efa8059bfe90")
 	)
+	(text "RE: pull-downs\n- GPIO can drive 4mA. set for 40uA of draw = 3.3/40u = ~100k\n- dig cells (min sized sky130) can drive ~80uA MAX, from sim, 1M is appropriate (V \"sags\" by ~0.5%)\n- analog sizing for PDN is at least better than min sized dig cells, use 1M"
+		(exclude_from_sim no)
+		(at 259.842 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a000829-c63d-4325-8ba7-05cf41fdf5cc")
+	)
 	(text "only including pull-ups here for:\na) I2C (needs ~2k usually)\nb) CS for SPI (assume that peripherals could be in a bad state w/out chip)"
 		(exclude_from_sim no)
 		(at 299.212 85.344 0)
@@ -15100,7 +15111,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 459.74 111.76 0)
 			(effects
 				(font
@@ -15299,7 +15310,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 306.07 102.87 0)
 			(effects
 				(font
@@ -15629,7 +15640,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 289.56 102.87 0)
 			(effects
 				(font
@@ -15699,7 +15710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 284.48 102.87 0)
 			(effects
 				(font
@@ -16355,7 +16366,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 464.82 111.76 0)
 			(effects
 				(font
@@ -16425,7 +16436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 316.23 102.87 0)
 			(effects
 				(font
