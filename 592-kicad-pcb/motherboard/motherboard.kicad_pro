@@ -585,6 +585,54 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN_ALT",
+          "name": "MPN_ALT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Variant",
+          "name": "Variant",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vendor",
+          "name": "Vendor",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Characteristics",
+          "name": "Characteristics",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigikeyPN",
+          "name": "DigikeyPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
         }
       ],
       "filter_string": "",

@@ -14418,7 +14418,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-144_20x20mm_P0.5mm"
+		(property "Footprint" ""
 			(at 194.31 349.25 0)
 			(effects
 				(font
