@@ -11691,16 +11691,6 @@
 		)
 		(uuid "43fc425f-a0aa-4dd7-b166-da52a91a3f21")
 	)
-	(text "Not sure what this does/what it needs to connect to on the Nucleo"
-		(exclude_from_sim no)
-		(at 10.668 75.184 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "45ff4814-fc04-4a53-a751-59a39a813fc3")
-	)
 	(text "SD Memory Card Holder (ONLY USE IF FOUND TO BE WORKING)\n"
 		(exclude_from_sim no)
 		(at 36.576 245.618 0)
@@ -11721,16 +11711,6 @@
 			)
 		)
 		(uuid "519c513a-47fc-4d72-83da-c7c1f9b1f3f4")
-	)
-	(text "TODO: Find out what the hell this connects to"
-		(exclude_from_sim no)
-		(at 118.364 225.044 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "83e2257b-2932-498b-ba6d-512392380d94")
 	)
 	(text "NOTE: Leave DAT2 and DAT1 unconnected as they are not used in SPI Mode\n"
 		(exclude_from_sim no)
@@ -13554,7 +13534,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 190.5) (xy 300.99 190.5)
+			(xy 290.83 190.5) (xy 322.58 190.5)
 		)
 		(stroke
 			(width 0)
@@ -13654,6 +13634,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 309.88) (xy 209.55 309.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e23efef-cac6-4024-b7f8-aa82d3b054a4")
+	)
+	(wire
+		(pts
 			(xy 113.03 302.26) (xy 113.03 307.34)
 		)
 		(stroke
@@ -13691,6 +13681,16 @@
 			(type default)
 		)
 		(uuid "4048ffb7-2533-479e-852d-7898d0b0ea70")
+	)
+	(wire
+		(pts
+			(xy 290.83 314.96) (xy 326.39 314.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40be580b-ae9c-46d4-af10-d0d319c7bb5d")
 	)
 	(wire
 		(pts
@@ -13821,6 +13821,16 @@
 			(type default)
 		)
 		(uuid "4b2d65e3-45de-4a62-baa1-6088dde0d4fc")
+	)
+	(wire
+		(pts
+			(xy 290.83 317.5) (xy 326.39 317.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bd5a991-900c-437d-b99f-8d99e5ac8200")
 	)
 	(wire
 		(pts
@@ -18128,6 +18138,28 @@
 			)
 		)
 	)
+	(global_label "CHIP_spi_0_sck (irq on Caravan)"
+		(shape input)
+		(at 326.39 314.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ebc67ee-0606-4543-b0e2-b927884dee07")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 360.9435 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "UART8_RX"
 		(shape input)
 		(at 627.38 241.3 180)
@@ -18585,7 +18617,7 @@
 		)
 	)
 	(global_label "DAC1_OUT1"
-		(shape input)
+		(shape passive)
 		(at 300.99 190.5 0)
 		(fields_autoplaced yes)
 		(effects
@@ -18931,6 +18963,28 @@
 			)
 		)
 	)
+	(global_label "CHIP_i2c_0_scl (irq2 on Caravan)"
+		(shape input)
+		(at 326.39 317.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8660254f-0cd7-4a76-918a-7c165a802ada")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 361.9111 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FTDI_V3.3"
 		(shape input)
 		(at 488.315 273.05 270)
@@ -19127,7 +19181,7 @@
 			)
 		)
 	)
-	(global_label "xclk"
+	(global_label "CHIP_clk"
 		(shape input)
 		(at 88.9 224.79 0)
 		(fields_autoplaced yes)
@@ -19139,11 +19193,12 @@
 		)
 		(uuid "905418d4-74cd-440b-86e5-e9455dc628e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -76.2 196.85 0)
+			(at 100.11 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -19408,6 +19463,28 @@
 			)
 		)
 	)
+	(global_label "GPIO_Output"
+		(shape passive)
+		(at 300.99 314.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad06516c-0eb8-4958-a470-22da6d9df96e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 315.647 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "mprj_io[15]"
 		(shape input)
 		(at 626.11 160.02 180)
@@ -19492,6 +19569,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TIM1_CH1"
+		(shape passive)
+		(at 199.39 309.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b50bcdbf-1ce7-4694-8fd7-c809a7c351e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.3939 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -19868,6 +19967,28 @@
 			)
 		)
 	)
+	(global_label "GPIO_Output"
+		(shape passive)
+		(at 300.99 317.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d5b43f8d-c36c-4eb0-8a26-1dfbcefc0129")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 315.647 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI5_CS"
 		(shape input)
 		(at 626.11 213.36 180)
@@ -20131,6 +20252,28 @@
 			)
 		)
 	)
+	(global_label "MCU_TIM_NFCCLK"
+		(shape input)
+		(at 184.15 309.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea4c30a3-7f86-483a-bdf1-8cf15302dba6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.8967 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "mprj_io[12]"
 		(shape input)
 		(at 703.58 259.08 0)
@@ -20253,6 +20396,28 @@
 		(uuid "fa8c7168-7518-4712-be13-3ec3b3994977")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 338.1442 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_DAC_VREF"
+		(shape input)
+		(at 322.58 190.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fbc0a9b9-0c85-4f33-94dc-712e63a43747")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 339.7771 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
