@@ -275,7 +275,7 @@
 		(uuid "bdd0bbd8-7b35-4608-b2ec-21021a157d2d")
 	)
 	(embedded_fonts no)
-	(model "C:/Data/NCState/ECE592tapeoutTest/LIB_U.FL-R-SMT-1_80_/U.FL-R-SMT-1_80_/3D/U.FL-R-SMT-1_80_.stp"
+	(model "${KIPRJMOD}/3D/U.FL-R-SMT-1_80_.stp"
 		(offset
 			(xyz 55.25 1.1 22.5)
 		)

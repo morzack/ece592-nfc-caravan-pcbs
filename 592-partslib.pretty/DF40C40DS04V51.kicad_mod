@@ -487,7 +487,7 @@
 		(uuid "74180d12-9687-4b36-a43c-d29111183b6a")
 	)
 	(embedded_fonts no)
-	(model "C:/Data/NCState/ECE592tapeoutTest/ece592-nfc-caravan-pcbs/3D/DF40C-40DS-0.4V_51_.stp"
+	(model "${KIPRJMOD}/3D/DF40C-40DS-0.4V_51_.stp"
 		(offset
 			(xyz 0.1 0 0)
 		)

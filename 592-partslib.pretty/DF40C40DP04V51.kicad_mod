@@ -471,7 +471,7 @@
 		(uuid "d9286e97-d8b1-4e59-84bd-286f1f76f5f1")
 	)
 	(embedded_fonts no)
-	(model "C:/Data/NCState/ECE592tapeoutTest/ece592-nfc-caravan-pcbs/3D/DF40C-40DP-0.4V_51_.stp"
+	(model "${KIPRJMOD}/3D/DF40C-40DP-0.4V_51_.stp"
 		(offset
 			(xyz 4.75 -0.8 0.6)
 		)

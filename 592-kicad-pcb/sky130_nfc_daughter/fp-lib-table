@@ -1,6 +1,7 @@
 (fp_lib_table
   (version 7)
-  (lib (name "Logos")(type "KiCad")(uri "${KIPRJMOD}/../Logos.pretty")(options "")(descr ""))
-  (lib (name "BreakoutCommon")(type "KiCad")(uri "${KIPRJMOD}/../BreakoutCommon.pretty")(options "")(descr ""))
-  (lib (name "TinyTapeout")(type "KiCad")(uri "${KIPRJMOD}/../tinytapeout-kicad-libs/footprints/TinyTapeout.pretty")(options "")(descr ""))
+  (lib (name "Logos")(type "KiCad")(uri "${KIPRJMOD}/../Logos.pretty")(options "")(descr "")(disabled))
+  (lib (name "BreakoutCommon")(type "KiCad")(uri "${KIPRJMOD}/../BreakoutCommon.pretty")(options "")(descr "")(disabled))
+  (lib (name "TinyTapeout")(type "KiCad")(uri "${KIPRJMOD}/../tinytapeout-kicad-libs/footprints/TinyTapeout.pretty")(options "")(descr "")(disabled))
+  (lib (name "592-partslib")(type "KiCad")(uri "${KIPRJMOD)/../../592-partslib.pretty")(options "")(descr ""))
 )
