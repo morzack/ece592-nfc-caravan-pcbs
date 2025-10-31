@@ -702,6 +702,18 @@
     [
       "1be5e80d-5a74-4ad9-b42f-508050f3350a",
       "chip_support_misc"
+    ],
+    [
+      "ae94b24c-171d-4d41-a27f-198eadfe9f10",
+      "ftdi"
+    ],
+    [
+      "aaa833c4-9815-41ce-8e69-1ac1d5f23103",
+      "chip_connection"
+    ],
+    [
+      "3c0f9e37-c6f0-4906-8fba-7c4325359d1d",
+      "memory"
     ]
   ],
   "text_variables": {}
