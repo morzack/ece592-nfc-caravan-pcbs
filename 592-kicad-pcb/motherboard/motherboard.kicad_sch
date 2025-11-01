@@ -5,6 +5,758 @@
 	(uuid "5b0c97ac-fa03-4db8-b41b-0eee32b6f55d")
 	(paper "A2")
 	(lib_symbols
+		(symbol "74xx:74CBTLV3257"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 17.78 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74CBTLV3257"
+				(at 15.24 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74cbtlv3257.pdf"
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Quad 1:2 FET Multiplexer/Demultiplexer, Low-Voltage"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mux demux low-voltage"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SSOP*3.9x4.9mm*P0.635mm* TSSOP*4.4x5mm*P0.65mm* TVSOP*4.4x3.6mm*P0.4mm* SOIC*3.9x9.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74CBTLV3257_1_1"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.794 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.81 4.445)
+					(end 3.81 -4.445)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.159 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.127) (xy 2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.794 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 2.794 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74CBTLV3257_2_1"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.794 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.81 4.445)
+					(end 3.81 -4.445)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.159 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.127) (xy 2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.794 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 2.794 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74CBTLV3257_3_1"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.794 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.81 4.445)
+					(end 3.81 -4.445)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.159 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.127) (xy 2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.794 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 2.794 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74CBTLV3257_4_1"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.794 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.81 4.445)
+					(end 3.81 -4.445)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.159 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.127) (xy 2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.794 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 2.794 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74CBTLV3257_5_1"
+				(rectangle
+					(start 3.81 6.35)
+					(end -6.35 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 3.81)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 3.81)
+					(name "~{OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 3.81)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_ST_STM32H5:STM32H563ZITx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3776,6 +4528,26 @@
 		)
 		(uuid "d936a017-f53b-490d-a290-8b9c8c392524")
 	)
+	(text_box "QSPI mem mux btw/ FTDI, rocket"
+		(exclude_from_sim no)
+		(at 393.7 307.34 0)
+		(size 73.66 73.66)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left top)
+		)
+		(uuid "e840cf0f-8ba0-4f26-927b-69d831978647")
+	)
 	(wire
 		(pts
 			(xy 271.78 261.62) (xy 281.94 261.62)
@@ -5197,6 +5969,116 @@
 		(uuid "fcb70e8e-f043-4abb-8c01-ad169b4330ea")
 	)
 	(symbol
+		(lib_id "74xx:74CBTLV3257")
+		(at 350.52 326.39 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "539b59ac-9fee-4366-a604-311c802df1fe")
+		(property "Reference" "U12"
+			(at 350.52 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74CBTLV3257"
+			(at 350.52 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 349.25 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74cbtlv3257.pdf"
+			(at 349.25 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 1:2 FET Multiplexer/Demultiplexer, Low-Voltage"
+			(at 350.52 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "6a69938b-4e9c-493f-94a1-2d97076dab3b")
+		)
+		(pin "9"
+			(uuid "aecb6360-11f4-4b37-941f-38f73d612d8f")
+		)
+		(pin "14"
+			(uuid "80e558d6-a24a-40bc-9835-e48850c5b45f")
+		)
+		(pin "16"
+			(uuid "3a238e83-4273-4afa-b1e7-a1360a562f90")
+		)
+		(pin "10"
+			(uuid "443f18db-284e-407f-9329-15e7417a0890")
+		)
+		(pin "7"
+			(uuid "1fc0765c-a37e-4860-9f98-7fcd9cb6be61")
+		)
+		(pin "3"
+			(uuid "a2b1872d-c688-4269-87b6-41d581b6b42b")
+		)
+		(pin "2"
+			(uuid "5b91a2ac-0976-423f-8038-f594fe75fc74")
+		)
+		(pin "4"
+			(uuid "ca008b54-fb3a-4076-a516-61b3fa9c00a2")
+		)
+		(pin "1"
+			(uuid "579cb216-0e88-451d-900c-0d96171db546")
+		)
+		(pin "15"
+			(uuid "aa66c665-2f1c-499f-8356-122e119db5eb")
+		)
+		(pin "13"
+			(uuid "5b7a6007-b497-4d7d-8d64-0240e1b96001")
+		)
+		(pin "5"
+			(uuid "5d3b9723-6e30-410f-b23a-0b601121466e")
+		)
+		(pin "11"
+			(uuid "ec290791-dd3d-424c-a15b-a0da09bd9044")
+		)
+		(pin "12"
+			(uuid "16ad32c2-c448-43e9-b507-10092b51d0b8")
+		)
+		(pin "8"
+			(uuid "bbd73c8b-de70-49bf-8bbb-33f5ca1c5779")
+		)
+		(instances
+			(project ""
+				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d"
+					(reference "U12")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_ST_STM32H5:STM32H563ZITx")
 		(at 231.14 190.5 0)
 		(unit 1)
@@ -5689,6 +6571,448 @@
 				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d"
 					(reference "U7")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74CBTLV3257")
+		(at 350.52 356.87 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98870217-136e-49bb-9b21-711bcaf0f495")
+		(property "Reference" "U12"
+			(at 350.52 347.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74CBTLV3257"
+			(at 350.52 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 349.25 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74cbtlv3257.pdf"
+			(at 349.25 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 1:2 FET Multiplexer/Demultiplexer, Low-Voltage"
+			(at 350.52 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "6a69938b-4e9c-493f-94a1-2d97076dab3b")
+		)
+		(pin "9"
+			(uuid "aecb6360-11f4-4b37-941f-38f73d612d8f")
+		)
+		(pin "14"
+			(uuid "80e558d6-a24a-40bc-9835-e48850c5b45f")
+		)
+		(pin "16"
+			(uuid "3a238e83-4273-4afa-b1e7-a1360a562f90")
+		)
+		(pin "10"
+			(uuid "443f18db-284e-407f-9329-15e7417a0890")
+		)
+		(pin "7"
+			(uuid "1fc0765c-a37e-4860-9f98-7fcd9cb6be61")
+		)
+		(pin "3"
+			(uuid "a2b1872d-c688-4269-87b6-41d581b6b42b")
+		)
+		(pin "2"
+			(uuid "5b91a2ac-0976-423f-8038-f594fe75fc74")
+		)
+		(pin "4"
+			(uuid "ca008b54-fb3a-4076-a516-61b3fa9c00a2")
+		)
+		(pin "1"
+			(uuid "579cb216-0e88-451d-900c-0d96171db546")
+		)
+		(pin "15"
+			(uuid "aa66c665-2f1c-499f-8356-122e119db5eb")
+		)
+		(pin "13"
+			(uuid "5b7a6007-b497-4d7d-8d64-0240e1b96001")
+		)
+		(pin "5"
+			(uuid "5d3b9723-6e30-410f-b23a-0b601121466e")
+		)
+		(pin "11"
+			(uuid "ec290791-dd3d-424c-a15b-a0da09bd9044")
+		)
+		(pin "12"
+			(uuid "16ad32c2-c448-43e9-b507-10092b51d0b8")
+		)
+		(pin "8"
+			(uuid "bbd73c8b-de70-49bf-8bbb-33f5ca1c5779")
+		)
+		(instances
+			(project ""
+				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d"
+					(reference "U12")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74CBTLV3257")
+		(at 350.52 341.63 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ef79b93-ec57-4301-9686-c69bae7bf1a0")
+		(property "Reference" "U12"
+			(at 350.52 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74CBTLV3257"
+			(at 350.52 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 349.25 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74cbtlv3257.pdf"
+			(at 349.25 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 1:2 FET Multiplexer/Demultiplexer, Low-Voltage"
+			(at 350.52 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "6a69938b-4e9c-493f-94a1-2d97076dab3b")
+		)
+		(pin "9"
+			(uuid "aecb6360-11f4-4b37-941f-38f73d612d8f")
+		)
+		(pin "14"
+			(uuid "80e558d6-a24a-40bc-9835-e48850c5b45f")
+		)
+		(pin "16"
+			(uuid "3a238e83-4273-4afa-b1e7-a1360a562f90")
+		)
+		(pin "10"
+			(uuid "443f18db-284e-407f-9329-15e7417a0890")
+		)
+		(pin "7"
+			(uuid "1fc0765c-a37e-4860-9f98-7fcd9cb6be61")
+		)
+		(pin "3"
+			(uuid "a2b1872d-c688-4269-87b6-41d581b6b42b")
+		)
+		(pin "2"
+			(uuid "5b91a2ac-0976-423f-8038-f594fe75fc74")
+		)
+		(pin "4"
+			(uuid "ca008b54-fb3a-4076-a516-61b3fa9c00a2")
+		)
+		(pin "1"
+			(uuid "579cb216-0e88-451d-900c-0d96171db546")
+		)
+		(pin "15"
+			(uuid "aa66c665-2f1c-499f-8356-122e119db5eb")
+		)
+		(pin "13"
+			(uuid "5b7a6007-b497-4d7d-8d64-0240e1b96001")
+		)
+		(pin "5"
+			(uuid "5d3b9723-6e30-410f-b23a-0b601121466e")
+		)
+		(pin "11"
+			(uuid "ec290791-dd3d-424c-a15b-a0da09bd9044")
+		)
+		(pin "12"
+			(uuid "16ad32c2-c448-43e9-b507-10092b51d0b8")
+		)
+		(pin "8"
+			(uuid "bbd73c8b-de70-49bf-8bbb-33f5ca1c5779")
+		)
+		(instances
+			(project ""
+				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d"
+					(reference "U12")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74CBTLV3257")
+		(at 350.52 311.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b32efdd3-d556-49e4-bb52-334c806f2437")
+		(property "Reference" "U12"
+			(at 350.52 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74CBTLV3257"
+			(at 350.52 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 349.25 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74cbtlv3257.pdf"
+			(at 349.25 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 1:2 FET Multiplexer/Demultiplexer, Low-Voltage"
+			(at 350.52 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "6a69938b-4e9c-493f-94a1-2d97076dab3b")
+		)
+		(pin "9"
+			(uuid "aecb6360-11f4-4b37-941f-38f73d612d8f")
+		)
+		(pin "14"
+			(uuid "80e558d6-a24a-40bc-9835-e48850c5b45f")
+		)
+		(pin "16"
+			(uuid "3a238e83-4273-4afa-b1e7-a1360a562f90")
+		)
+		(pin "10"
+			(uuid "443f18db-284e-407f-9329-15e7417a0890")
+		)
+		(pin "7"
+			(uuid "1fc0765c-a37e-4860-9f98-7fcd9cb6be61")
+		)
+		(pin "3"
+			(uuid "a2b1872d-c688-4269-87b6-41d581b6b42b")
+		)
+		(pin "2"
+			(uuid "5b91a2ac-0976-423f-8038-f594fe75fc74")
+		)
+		(pin "4"
+			(uuid "ca008b54-fb3a-4076-a516-61b3fa9c00a2")
+		)
+		(pin "1"
+			(uuid "579cb216-0e88-451d-900c-0d96171db546")
+		)
+		(pin "15"
+			(uuid "aa66c665-2f1c-499f-8356-122e119db5eb")
+		)
+		(pin "13"
+			(uuid "5b7a6007-b497-4d7d-8d64-0240e1b96001")
+		)
+		(pin "5"
+			(uuid "5d3b9723-6e30-410f-b23a-0b601121466e")
+		)
+		(pin "11"
+			(uuid "ec290791-dd3d-424c-a15b-a0da09bd9044")
+		)
+		(pin "12"
+			(uuid "16ad32c2-c448-43e9-b507-10092b51d0b8")
+		)
+		(pin "8"
+			(uuid "bbd73c8b-de70-49bf-8bbb-33f5ca1c5779")
+		)
+		(instances
+			(project ""
+				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74CBTLV3257")
+		(at 351.79 372.11 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d906b7df-9223-4973-9863-3041c26545b7")
+		(property "Reference" "U12"
+			(at 356.87 370.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74CBTLV3257"
+			(at 356.87 373.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 350.52 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74cbtlv3257.pdf"
+			(at 350.52 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 1:2 FET Multiplexer/Demultiplexer, Low-Voltage"
+			(at 351.79 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "6a69938b-4e9c-493f-94a1-2d97076dab3b")
+		)
+		(pin "9"
+			(uuid "aecb6360-11f4-4b37-941f-38f73d612d8f")
+		)
+		(pin "14"
+			(uuid "80e558d6-a24a-40bc-9835-e48850c5b45f")
+		)
+		(pin "16"
+			(uuid "3a238e83-4273-4afa-b1e7-a1360a562f90")
+		)
+		(pin "10"
+			(uuid "443f18db-284e-407f-9329-15e7417a0890")
+		)
+		(pin "7"
+			(uuid "1fc0765c-a37e-4860-9f98-7fcd9cb6be61")
+		)
+		(pin "3"
+			(uuid "a2b1872d-c688-4269-87b6-41d581b6b42b")
+		)
+		(pin "2"
+			(uuid "5b91a2ac-0976-423f-8038-f594fe75fc74")
+		)
+		(pin "4"
+			(uuid "ca008b54-fb3a-4076-a516-61b3fa9c00a2")
+		)
+		(pin "1"
+			(uuid "579cb216-0e88-451d-900c-0d96171db546")
+		)
+		(pin "15"
+			(uuid "aa66c665-2f1c-499f-8356-122e119db5eb")
+		)
+		(pin "13"
+			(uuid "5b7a6007-b497-4d7d-8d64-0240e1b96001")
+		)
+		(pin "5"
+			(uuid "5d3b9723-6e30-410f-b23a-0b601121466e")
+		)
+		(pin "11"
+			(uuid "ec290791-dd3d-424c-a15b-a0da09bd9044")
+		)
+		(pin "12"
+			(uuid "16ad32c2-c448-43e9-b507-10092b51d0b8")
+		)
+		(pin "8"
+			(uuid "bbd73c8b-de70-49bf-8bbb-33f5ca1c5779")
+		)
+		(instances
+			(project ""
+				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d"
+					(reference "U12")
+					(unit 5)
 				)
 			)
 		)
