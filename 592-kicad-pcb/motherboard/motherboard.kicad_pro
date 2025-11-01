@@ -633,6 +633,12 @@
           "label": "LCSC",
           "name": "LCSC",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -688,32 +694,36 @@
       "Root"
     ],
     [
-      "22c0ff7f-6fb8-476b-be54-e80d47691e23",
-      "clock_sources"
-    ],
-    [
-      "9cc7bda2-6b63-4506-9986-d8a2a58c5915",
+      "cc4799d4-5517-451a-9b97-5b1497b0c7e9",
       "ana_buffers"
     ],
     [
-      "d6451fe0-7223-4dc8-a216-7efc3a379119",
-      "debug_headers"
-    ],
-    [
-      "1be5e80d-5a74-4ad9-b42f-508050f3350a",
-      "chip_support_misc"
-    ],
-    [
-      "ae94b24c-171d-4d41-a27f-198eadfe9f10",
-      "ftdi"
-    ],
-    [
-      "aaa833c4-9815-41ce-8e69-1ac1d5f23103",
+      "f6d635ad-dccc-4a37-acef-12f77d37e99b",
       "chip_connection"
     ],
     [
-      "3c0f9e37-c6f0-4906-8fba-7c4325359d1d",
+      "43b528c2-ed3f-4c4d-855d-1f88d0a4fadb",
+      "chip_support_misc"
+    ],
+    [
+      "3a030d94-f28f-47c8-8fe2-a633abb16730",
+      "clock_sources"
+    ],
+    [
+      "7d5517bc-0937-44a5-a190-c0811a511b9b",
+      "debug_headers"
+    ],
+    [
+      "97610d8c-8d20-427b-9592-9b2233fc6572",
+      "ftdi"
+    ],
+    [
+      "2022d8e8-455b-4f4a-b4b4-f79e7486e2af",
       "memory"
+    ],
+    [
+      "f049e4ad-bebe-4338-850a-2727de737ae9",
+      "motherboard_top"
     ]
   ],
   "text_variables": {}
