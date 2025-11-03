@@ -9,6 +9,161 @@
 		(rev "0.00")
 	)
 	(lib_symbols
+		(symbol "592-partslib:INA138NA/3K"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "INA138NA/3K"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C47914.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "TI current monitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "INA138NA/3K_0_1"
+				(polyline
+					(pts
+						(xy -8.89 8.89) (xy -8.89 -8.89) (xy 13.97 0) (xy -8.89 8.89)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "INA138NA/3K_1_1"
+				(pin input line
+					(at -11.43 3.81 0)
+					(length 2.54)
+					(name "VIN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 -3.81 0)
+					(length 2.54)
+					(name "VIN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 7.62 270)
+					(length 2.54)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 1.27 -7.62 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "592-partslib:ISL54059IRUZ-T_uTQFN"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -254,10 +409,10 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "1V8 USER DIGITAL"
+	(text_box "1V8 USER DIGITAL\n3V3 USER ANALOG"
 		(exclude_from_sim no)
-		(at 46.99 87.63 0)
-		(size 181.61 31.75)
+		(at 46.99 66.04 0)
+		(size 168.91 35.56)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -294,30 +449,10 @@
 		)
 		(uuid "56399a74-a3dc-4c0b-ad19-d825ffd9fd9a")
 	)
-	(text_box "3V3 USER ANALOG"
-		(exclude_from_sim no)
-		(at 46.99 158.75 0)
-		(size 113.03 31.75)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "acd686fd-63e9-485c-a2de-87ed070911f4")
-	)
-	(text_box "3V3 MGMT"
+	(text_box "3V3 MGMT\n1V8 MGMT"
 		(exclude_from_sim no)
 		(at 46.99 16.51 0)
-		(size 113.03 31.75)
+		(size 92.71 44.45)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -336,8 +471,8 @@
 	)
 	(text_box "CURRENT MONITOR"
 		(exclude_from_sim no)
-		(at 177.8 88.9 0)
-		(size 49.53 25.4)
+		(at 176.53 68.58 0)
+		(size 36.83 25.4)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -374,26 +509,6 @@
 		)
 		(uuid "bb8dd6af-54d1-46e5-87aa-b4a22a5d7a48")
 	)
-	(text_box "1V8 MGMT"
-		(exclude_from_sim no)
-		(at 46.99 52.07 0)
-		(size 113.03 31.75)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "c3c70c85-5537-4834-847a-398cb7ed9a99")
-	)
 	(wire
 		(pts
 			(xy 15.24 53.34) (xy 19.05 53.34)
@@ -406,7 +521,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 63.5) (xy 165.1 63.5)
+			(xy 91.44 38.1) (xy 88.9 38.1)
 		)
 		(stroke
 			(width 0)
@@ -456,7 +571,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 101.6) (xy 232.41 101.6)
+			(xy 210.82 81.28) (xy 218.44 81.28)
 		)
 		(stroke
 			(width 0)
@@ -476,7 +591,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 25.4) (xy 165.1 25.4)
+			(xy 116.84 38.1) (xy 119.38 38.1)
 		)
 		(stroke
 			(width 0)
@@ -506,7 +621,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 116.84) (xy 232.41 116.84)
+			(xy 222.25 95.25) (xy 232.41 95.25)
 		)
 		(stroke
 			(width 0)
@@ -566,7 +681,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 171.45) (xy 166.37 171.45)
+			(xy 91.44 83.82) (xy 88.9 83.82)
 		)
 		(stroke
 			(width 0)
@@ -585,7 +700,7 @@
 		(uuid "f81e7b29-34a7-45aa-852d-c231eda77cd9")
 	)
 	(label "dig_to_adc"
-		(at 232.41 101.6 0)
+		(at 218.44 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -605,17 +720,17 @@
 		(uuid "438d1f33-1f00-4de1-a176-428113359498")
 	)
 	(label "VCCD"
-		(at 165.1 63.5 0)
+		(at 88.9 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "7960f764-dfb3-4f9e-addf-72bfb675bd42")
 	)
 	(label "VDDA, VDDIO"
-		(at 165.1 25.4 0)
+		(at 119.38 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -625,7 +740,7 @@
 		(uuid "898b5687-01cc-4f3c-b51e-3bbc1f4a6a79")
 	)
 	(label "VCCD1, VCCD2"
-		(at 232.41 116.84 0)
+		(at 232.41 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -645,12 +760,12 @@
 		(uuid "d849e71b-f843-4e5c-b0e2-70d23592b482")
 	)
 	(label "VDD_EXT"
-		(at 166.37 171.45 0)
+		(at 88.9 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "e0cd9490-ba4f-44ed-8dda-3aa3b3c24418")
 	)
@@ -881,7 +996,7 @@
 	)
 	(symbol
 		(lib_id "592-partslib:ISL54059IRUZ-T_uTQFN")
-		(at 77.47 175.26 0)
+		(at 104.14 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -889,7 +1004,7 @@
 		(dnp no)
 		(uuid "3eab4245-dd9d-4747-a0ef-5398291f7341")
 		(property "Reference" "ISL54059IRUZ-T_uTQFN5"
-			(at 65.786 171.958 0)
+			(at 92.456 80.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -898,7 +1013,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 64.77 171.958 0)
+			(at 91.44 80.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -907,7 +1022,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 175.26 0)
+			(at 104.14 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -916,7 +1031,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 175.26 0)
+			(at 104.14 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -925,7 +1040,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 175.26 0)
+			(at 104.14 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -973,34 +1088,32 @@
 		)
 	)
 	(symbol
-		(lib_id "592-partslib:ISL54059IRUZ-T_uTQFN")
-		(at 77.47 67.31 0)
+		(lib_id "592-partslib:INA138NA/3K")
+		(at 193.04 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6e678a07-8444-48b3-9829-07398796ca80")
-		(property "Reference" "ISL54059IRUZ-T_uTQFN1"
-			(at 65.786 64.008 0)
+		(uuid "bb9d9c35-7d32-4681-b605-79bcf59ea267")
+		(property "Reference" "U16"
+			(at 193.294 80.518 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 64.77 64.008 0)
+		(property "Value" "INA138NA/3K"
+			(at 193.548 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 67.31 0)
+			(at 193.04 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1008,8 +1121,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 77.47 67.31 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C47914.pdf"
+			(at 193.04 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1017,8 +1130,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 77.47 67.31 0)
+		(property "Description" "TI current monitor"
+			(at 193.04 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1027,39 +1140,24 @@
 			)
 		)
 		(pin "5"
-			(uuid "c74341f1-4f8e-4fe2-9c48-6e0167c11fd7")
-		)
-		(pin "4"
-			(uuid "bbbf0c25-684d-4c81-b0c0-5c48868569fd")
-		)
-		(pin "8"
-			(uuid "f9237b0b-9a13-456c-8e80-dff8589fee39")
+			(uuid "c9e38be3-9267-4246-91c1-1cf1bb4a438e")
 		)
 		(pin "3"
-			(uuid "f315067a-7e18-4168-9157-1be2a58e0e84")
+			(uuid "eff3697a-e648-41a5-9ee3-098d0d719cbe")
 		)
-		(pin "9"
-			(uuid "399049c9-e533-4544-8701-8a4a27fde7b2")
-		)
-		(pin "7"
-			(uuid "b80d20c9-b1df-4a4e-a251-07bd44919884")
+		(pin "4"
+			(uuid "d96f4d60-d7d7-41b7-8153-935b06f19b2a")
 		)
 		(pin "1"
-			(uuid "40ada132-a150-4508-a812-477848418106")
+			(uuid "625eb197-858f-4eb6-afc8-16aa08a688fd")
 		)
-		(pin "2"
-			(uuid "f7714d37-a586-4510-82a5-f7bd670f932e")
-		)
-		(pin "6"
-			(uuid "f7278edc-5084-4db3-a128-7f707784fd1d")
-		)
-		(pin "10"
-			(uuid "fcd8b4a6-4dd4-4a08-8fca-273f42a8f50d")
+		(pin "GND"
+			(uuid "c87c0cc4-1141-43b3-9a6c-a8393282ab34")
 		)
 		(instances
 			(project ""
 				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d/f049e4ad-bebe-4338-850a-2727de737ae9/260af3dc-9286-4c76-9c6c-eeb806d3e6e5"
-					(reference "ISL54059IRUZ-T_uTQFN1")
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -1067,100 +1165,7 @@
 	)
 	(symbol
 		(lib_id "592-partslib:ISL54059IRUZ-T_uTQFN")
-		(at 77.47 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ec47769-3af2-495f-bda9-cfc047c79503")
-		(property "Reference" "ISL54059IRUZ-T_uTQFN2"
-			(at 65.786 28.448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 64.77 28.448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "af0ee01a-f201-4e44-89d4-a5009dc4f6f5")
-		)
-		(pin "4"
-			(uuid "cb40fbe9-6d84-4613-87c1-e07b7061cfe4")
-		)
-		(pin "8"
-			(uuid "9a20adcd-2e16-4230-9470-2c3e5f18da15")
-		)
-		(pin "3"
-			(uuid "c8099416-8014-4854-b946-3333bf9b2db9")
-		)
-		(pin "9"
-			(uuid "d821dace-c11f-40f6-b402-771191929a36")
-		)
-		(pin "7"
-			(uuid "de6ab955-f46f-4a9a-97ac-6150f20022b6")
-		)
-		(pin "1"
-			(uuid "3015f7a9-3726-447f-a49d-0198bff4b4c9")
-		)
-		(pin "2"
-			(uuid "95352de8-ce0f-4668-ad27-121c5bceba3f")
-		)
-		(pin "6"
-			(uuid "ad1e41a8-6020-4843-9e57-e8f95f947cf9")
-		)
-		(pin "10"
-			(uuid "92e70f0e-54b1-49d1-bff3-82fe1a7d17d7")
-		)
-		(instances
-			(project "motherboard"
-				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d/f049e4ad-bebe-4338-850a-2727de737ae9/260af3dc-9286-4c76-9c6c-eeb806d3e6e5"
-					(reference "ISL54059IRUZ-T_uTQFN2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "592-partslib:ISL54059IRUZ-T_uTQFN")
-		(at 77.47 104.14 0)
+		(at 104.14 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1168,7 +1173,7 @@
 		(dnp no)
 		(uuid "c6b1ef54-145d-4051-871a-97eed8b17abf")
 		(property "Reference" "ISL54059IRUZ-T_uTQFN3"
-			(at 65.786 100.838 0)
+			(at 92.456 34.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1177,7 +1182,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 64.77 100.838 0)
+			(at 91.44 34.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1186,7 +1191,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 104.14 0)
+			(at 104.14 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1195,7 +1200,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 104.14 0)
+			(at 104.14 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1204,7 +1209,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 104.14 0)
+			(at 104.14 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
