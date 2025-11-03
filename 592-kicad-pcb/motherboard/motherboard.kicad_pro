@@ -461,7 +461,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "592-partslib"
+    ]
   },
   "meta": {
     "filename": "motherboard.kicad_pro",

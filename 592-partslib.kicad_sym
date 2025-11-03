@@ -1929,7 +1929,7 @@
 				)
 			)
 		)
-		(property "Value" "INA138NA/3K"
+		(property "Value" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -1955,7 +1955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TI current monitor"
+		(property "Description" "TI Current Monitor"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1965,10 +1965,9 @@
 			)
 		)
 		(symbol "INA138NA/3K_0_1"
-			(polyline
-				(pts
-					(xy -8.89 8.89) (xy -8.89 -8.89) (xy 13.97 0) (xy -8.89 8.89)
-				)
+			(rectangle
+				(start -10.16 10.16)
+				(end 10.16 -10.16)
 				(stroke
 					(width 0)
 					(type default)
@@ -1980,7 +1979,7 @@
 		)
 		(symbol "INA138NA/3K_1_1"
 			(pin input line
-				(at -11.43 3.81 0)
+				(at -12.7 3.81 0)
 				(length 2.54)
 				(name "VIN+"
 					(effects
@@ -1998,7 +1997,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -3.81 0)
+				(at -12.7 -3.81 0)
 				(length 2.54)
 				(name "VIN-"
 					(effects
@@ -2015,9 +2014,9 @@
 					)
 				)
 			)
-			(pin input line
-				(at 1.27 7.62 270)
-				(length 2.54)
+			(pin power_in line
+				(at 0 13.97 270)
+				(length 3.81)
 				(name "V+"
 					(effects
 						(font
@@ -2034,16 +2033,16 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 -7.62 90)
-				(length 2.54)
-				(name "2"
+				(at 0 -13.97 90)
+				(length 3.81)
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "GND"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2052,7 +2051,7 @@
 				)
 			)
 			(pin output line
-				(at 16.51 0 180)
+				(at 12.7 3.81 180)
 				(length 2.54)
 				(name "OUT"
 					(effects
@@ -2076,8 +2075,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "ISL54059IRUZ-T_uTQFN"
-			(at 0 3.302 0)
+		(property "Reference" "U"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2092,7 +2091,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "uTQFN"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2101,7 +2100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2673589.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2110,7 +2109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Renesas SPDT Sub-Ohm Single Supply Switch"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2121,8 +2120,8 @@
 		)
 		(symbol "ISL54059IRUZ-T_uTQFN_0_1"
 			(rectangle
-				(start -10.16 10.16)
-				(end 10.16 -10.16)
+				(start -12.7 12.7)
+				(end 12.7 -12.7)
 				(stroke
 					(width 0)
 					(type default)
@@ -2134,7 +2133,25 @@
 		)
 		(symbol "ISL54059IRUZ-T_uTQFN_1_1"
 			(pin input line
-				(at -12.7 6.35 0)
+				(at -15.24 8.89 0)
+				(length 2.54)
+				(name "IN1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 6.35 0)
 				(length 2.54)
 				(name "NO1"
 					(effects
@@ -2151,26 +2168,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at -12.7 0 0)
-				(length 2.54)
-				(name "COM1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
-				(at -12.7 -6.35 0)
+				(at -15.24 3.81 0)
 				(length 2.54)
 				(name "NC1"
 					(effects
@@ -2188,43 +2187,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 12.7 270)
-				(length 2.54)
-				(name "IN1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -5.08 -12.7 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 5.08 12.7 270)
+				(at -15.24 -3.81 0)
 				(length 2.54)
 				(name "IN2"
 					(effects
@@ -2242,25 +2205,7 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 -12.7 90)
-				(length 2.54)
-				(name "V+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 6.35 180)
+				(at -15.24 -6.35 0)
 				(length 2.54)
 				(name "NO2"
 					(effects
@@ -2277,26 +2222,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at 12.7 0 180)
-				(length 2.54)
-				(name "COM2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 -6.35 180)
+			(pin power_in line
+				(at -15.24 -8.89 0)
 				(length 2.54)
 				(name "NC2"
 					(effects
@@ -2306,6 +2233,78 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 16.51 270)
+				(length 3.81)
+				(name "V+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -16.51 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 15.24 6.35 180)
+				(length 2.54)
+				(name "COM1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 15.24 -6.35 180)
+				(length 2.54)
+				(name "COM2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)

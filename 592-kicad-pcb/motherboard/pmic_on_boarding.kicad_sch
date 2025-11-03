@@ -79,6 +79,27 @@
 		)
 		(uuid "d6e88d3e-0b99-493b-8433-be243bb1ca97")
 	)
+	(wire
+		(pts
+			(xy 33.02 48.26) (xy 35.56 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef2247d0-f7a3-42f5-9e3e-1555c18e657a")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 35.56 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "16abac20-27ae-4698-a5f5-02dbdcae4941")
+	)
 	(hierarchical_label "ON_BOARD_5V"
 		(shape output)
 		(at 35.56 44.45 0)
