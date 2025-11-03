@@ -3329,9 +3329,9 @@
 		)
 		(uuid "98764bb5-e818-486a-8513-5f5967001b31")
 	)
-	(text "C: UART for MGMT CPU"
+	(text "C: UART for MGMT CPU (TODO: add way to disconnect to drive over jumper)"
 		(exclude_from_sim no)
-		(at 187.452 124.46 0)
+		(at 211.836 120.142 0)
 		(effects
 			(font
 				(size 1.27 1.27)

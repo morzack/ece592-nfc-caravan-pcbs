@@ -898,10 +898,6 @@
 		(uuid "498cae08-3ed6-4470-8ee9-743c31e67147")
 	)
 	(no_connect
-		(at 62.23 54.61)
-		(uuid "6ec394bf-a7fb-4cc6-9314-a6b9c26d32e0")
-	)
-	(no_connect
 		(at 189.23 110.49)
 		(uuid "7877ed4c-f813-4806-a74d-d7622f465559")
 	)
@@ -1780,6 +1776,16 @@
 			(type default)
 		)
 		(uuid "fe74fab9-1110-42de-ad25-e4a36133db26")
+	)
+	(label "TDI_EXT"
+		(at 62.23 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c027ebd-434f-4970-ac00-7be809ef0e63")
 	)
 	(label "i2c_0_sda"
 		(at 125.73 59.69 0)
