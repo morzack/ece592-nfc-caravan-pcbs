@@ -2878,6 +2878,10 @@
 		(uuid "f3011c77-53c2-4715-afe6-4854afc72b29")
 	)
 	(no_connect
+		(at 71.12 85.09)
+		(uuid "004a77e9-954a-43f8-8762-80c5f86bc7bd")
+	)
+	(no_connect
 		(at 140.97 29.21)
 		(uuid "00e62942-5f09-4887-9ff9-0daa187fda1d")
 	)
@@ -2892,6 +2896,10 @@
 	(no_connect
 		(at 71.12 31.75)
 		(uuid "2266465d-494b-4669-bdde-e8b30d3273ed")
+	)
+	(no_connect
+		(at 71.12 92.71)
+		(uuid "24e2bffa-f570-4479-b620-afdaad5a85f1")
 	)
 	(no_connect
 		(at 176.53 29.21)
@@ -2912,6 +2920,10 @@
 	(no_connect
 		(at 123.19 77.47)
 		(uuid "554fb378-750b-453b-8163-da2f669ad5d3")
+	)
+	(no_connect
+		(at 71.12 82.55)
+		(uuid "58c3bbd5-8ec2-4b8e-b494-02e061db7185")
 	)
 	(no_connect
 		(at 138.43 29.21)
@@ -2996,6 +3008,14 @@
 	(no_connect
 		(at 71.12 52.07)
 		(uuid "e2dc9e1e-506d-4904-b076-2fa55d7caffb")
+	)
+	(no_connect
+		(at 71.12 90.17)
+		(uuid "e40f9faa-8349-460d-b333-9f4db6883b9a")
+	)
+	(no_connect
+		(at 71.12 87.63)
+		(uuid "e8ad3bab-4cf0-4ebf-9bf5-3326b8cd2dab")
 	)
 	(no_connect
 		(at 148.59 29.21)
@@ -3191,7 +3211,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 87.63) (xy 73.66 87.63)
+			(xy 71.12 107.95) (xy 73.66 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3350,7 +3370,7 @@
 		(uuid "fbd929f4-dd0f-4cfc-ad9a-b0e5403c7504")
 	)
 	(label "nucleo_5v"
-		(at 73.66 87.63 0)
+		(at 73.66 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3934,7 +3954,7 @@
 	)
 	(sheet
 		(at 30.48 19.05)
-		(size 40.64 78.74)
+		(size 40.64 95.25)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3958,7 +3978,7 @@
 			)
 		)
 		(property "Sheetfile" "motherboard_top.kicad_sch"
-			(at 30.48 98.3746 0)
+			(at 30.48 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4157,7 +4177,7 @@
 			)
 		)
 		(pin "nucleo_5v" input
-			(at 71.12 87.63 0)
+			(at 71.12 107.95 0)
 			(uuid "2f4f1753-a759-47b0-8d3a-ba32e0f6c1f5")
 			(effects
 				(font
@@ -4179,6 +4199,56 @@
 		(pin "GPIO_chip_nfc_jtag_tdo2" output
 			(at 71.12 29.21 0)
 			(uuid "52190e5a-a854-4fb6-8351-9a320e4533bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_mgmt_uart_rx" input
+			(at 71.12 82.55 0)
+			(uuid "3b0f8773-2c14-44fa-b673-28b7830b7dd0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_mgmt_uart_tx" output
+			(at 71.12 85.09 0)
+			(uuid "ba12195b-6b4e-4a2b-86ad-67abf45bba35")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_ftdi_jtag_src_en" input
+			(at 71.12 87.63 0)
+			(uuid "c9b89410-7b7b-408a-a1c7-270f7a29b11c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_rck_mem_source_en" input
+			(at 71.12 90.17 0)
+			(uuid "048b2ddd-c418-4813-97e4-d5c26336b34e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_JTAG_FTDI_source_select" input
+			(at 71.12 92.71 0)
+			(uuid "1bf9983a-a562-41ff-b20f-65333af2b75c")
 			(effects
 				(font
 					(size 1.27 1.27)
