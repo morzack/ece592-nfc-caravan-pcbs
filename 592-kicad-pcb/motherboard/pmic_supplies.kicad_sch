@@ -59,7 +59,7 @@
 		)
 		(uuid "2c91408a-73f4-4cb6-9356-1732ab9d95e0")
 	)
-	(hierarchical_label "ON_BOARD_5V"
+	(hierarchical_label "5V0_ON_BOARD"
 		(shape input)
 		(at 29.21 27.94 0)
 		(effects

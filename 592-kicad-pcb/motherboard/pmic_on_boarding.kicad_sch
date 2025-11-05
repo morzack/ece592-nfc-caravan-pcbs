@@ -100,7 +100,7 @@
 		)
 		(uuid "16abac20-27ae-4698-a5f5-02dbdcae4941")
 	)
-	(hierarchical_label "ON_BOARD_5V"
+	(hierarchical_label "5V0_ON_BOARD"
 		(shape output)
 		(at 35.56 44.45 0)
 		(effects
@@ -111,7 +111,7 @@
 		)
 		(uuid "9d74e9a9-4ce7-4c49-bc13-010fec010a93")
 	)
-	(hierarchical_label "NUCLEO_5V"
+	(hierarchical_label "5V0_NUCLEO"
 		(shape input)
 		(at 35.56 34.29 0)
 		(effects
@@ -122,7 +122,7 @@
 		)
 		(uuid "bb09649a-4c7c-479b-a87c-0a286fe17736")
 	)
-	(hierarchical_label "EXTERNAL_5V"
+	(hierarchical_label "5V0_EXTERNAL"
 		(shape input)
 		(at 35.56 38.1 0)
 		(effects
