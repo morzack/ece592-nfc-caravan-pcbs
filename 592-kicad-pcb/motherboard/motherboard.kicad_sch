@@ -3396,7 +3396,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "39653c5d-2317-4488-b208-ec2cb905d585")
 		(property "Reference" "U16"

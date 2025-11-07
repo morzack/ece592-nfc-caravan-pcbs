@@ -1928,7 +1928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 38.1 93.98 0)
 			(effects
 				(font
@@ -1947,6 +1947,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 38.1 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 38.1 93.98 0)
 			(effects
 				(font
@@ -1995,7 +2004,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
 			(at 64.77 91.44 0)
 			(effects
 				(font
@@ -2017,6 +2026,15 @@
 			)
 		)
 		(property "Description" "Single Schmitt NOT Gate, Low-Voltage CMOS, SOT-23"
+			(at 64.77 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C35740"
 			(at 64.77 85.09 0)
 			(effects
 				(font
@@ -2123,7 +2141,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "609ab5eb-daf0-4f14-b469-ae6a14575b20")
 		(property "Reference" "J5"
@@ -2237,6 +2255,15 @@
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
 			(at 43.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C318884"
+			(at 43.18 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2486,7 +2513,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 41.402 78.74 90)
 			(effects
 				(font
@@ -2505,6 +2532,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 43.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
 			(at 43.18 78.74 0)
 			(effects
 				(font
@@ -2573,6 +2609,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 90.17 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C478004"
 			(at 90.17 83.82 0)
 			(effects
 				(font
@@ -2702,7 +2747,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 143.002 88.9 90)
 			(effects
 				(font
@@ -2721,6 +2766,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 144.78 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25741"
 			(at 144.78 88.9 0)
 			(effects
 				(font
