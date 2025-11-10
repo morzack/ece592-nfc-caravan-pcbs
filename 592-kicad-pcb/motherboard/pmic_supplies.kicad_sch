@@ -913,6 +913,17 @@
 		)
 		(uuid "6a4f18b8-2749-4279-85bc-865f4641bf65")
 	)
+	(text "bypass cap not strictly\nnecessary"
+		(exclude_from_sim no)
+		(at 129.794 115.062 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac340a43-71ff-46c2-8ddf-56f37a0ca829")
+	)
 	(text "Buck : Vout1 : MGMT & USER DIG\nLDO	 : Vout2 : MGMT & USER ANA"
 		(exclude_from_sim no)
 		(at 66.548 30.988 0)
@@ -965,7 +976,7 @@
 		(uuid "4a63ed38-a6af-4829-a116-52d5b7ce9511")
 	)
 	(junction
-		(at 149.86 104.14)
+		(at 154.94 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04eadb45-6e24-45df-a2ca-f5afbf07dcec")
@@ -1082,6 +1093,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 104.14) (xy 154.94 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cbe93f8-b043-4f2d-aad1-3567b06b7b4a")
+	)
+	(wire
+		(pts
 			(xy 137.16 109.22) (xy 137.16 111.76)
 		)
 		(stroke
@@ -1119,16 +1140,6 @@
 			(type default)
 		)
 		(uuid "42a117e7-1d3b-4e4e-90ef-6ddb74e6a151")
-	)
-	(wire
-		(pts
-			(xy 137.16 104.14) (xy 149.86 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "450d6b52-5cc5-418e-8590-edc98c200dcd")
 	)
 	(wire
 		(pts
@@ -1179,16 +1190,6 @@
 			(type default)
 		)
 		(uuid "49bc54fb-944f-4f6c-ba1b-b7b1367bf810")
-	)
-	(wire
-		(pts
-			(xy 114.3 129.54) (xy 149.86 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bbb2424-ced5-4d46-bf51-a463b86647a5")
 	)
 	(wire
 		(pts
@@ -1272,7 +1273,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 109.22) (xy 149.86 129.54)
+			(xy 154.94 109.22) (xy 154.94 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1302,7 +1303,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 104.14) (xy 152.4 104.14)
+			(xy 154.94 104.14) (xy 157.48 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1472,6 +1473,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 129.54) (xy 154.94 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e58f5c69-0e27-4b53-84b3-19e24b6c5373")
+	)
+	(wire
+		(pts
 			(xy 20.32 60.96) (xy 22.86 60.96)
 		)
 		(stroke
@@ -1601,7 +1612,7 @@
 		(uuid "7da003f0-6b4a-48c8-86bd-928f07a2ffeb")
 	)
 	(label "2V5_LDO"
-		(at 152.4 104.14 0)
+		(at 157.48 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2024,7 +2035,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 149.86 106.68 180)
+		(at 154.94 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2032,7 +2043,7 @@
 		(dnp no)
 		(uuid "67067948-8616-40dd-9c16-1a0048514b75")
 		(property "Reference" "C41"
-			(at 152.4 105.4035 0)
+			(at 157.48 105.4035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2041,7 +2052,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 152.4 107.9435 0)
+			(at 157.48 107.9435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2050,7 +2061,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 106.68 0)
+			(at 154.94 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2059,7 +2070,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 106.68 0)
+			(at 154.94 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2068,7 +2079,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 149.86 106.68 0)
+			(at 154.94 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
