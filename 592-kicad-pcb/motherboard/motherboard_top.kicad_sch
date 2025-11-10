@@ -2354,32 +2354,12 @@
 		(uuid "f98edb2f-9749-4054-8da1-03de7196bb39")
 	)
 	(no_connect
-		(at 80.01 115.57)
-		(uuid "0456f222-4c0d-407d-b5ff-d233ba135eb7")
-	)
-	(no_connect
-		(at 80.01 105.41)
-		(uuid "0a48795d-49bc-49a8-b5c6-a66178fe24f3")
-	)
-	(no_connect
-		(at 80.01 113.03)
-		(uuid "0f24a59c-55f6-4e70-a973-595cc5d7ef52")
-	)
-	(no_connect
 		(at 166.37 246.38)
 		(uuid "20245b37-4e32-424b-bd7e-e03ec2463b44")
 	)
 	(no_connect
 		(at 405.13 162.56)
 		(uuid "3d8051a0-a0c5-4a1a-bf46-a36e593b9475")
-	)
-	(no_connect
-		(at 80.01 107.95)
-		(uuid "3ece496f-caa4-466b-9514-e58d8fd28dd4")
-	)
-	(no_connect
-		(at 80.01 110.49)
-		(uuid "4df31ef1-9c69-4f50-9cf4-4af5d136500e")
 	)
 	(no_connect
 		(at 405.13 152.4)
@@ -2396,10 +2376,6 @@
 	(no_connect
 		(at 80.01 92.71)
 		(uuid "809a7333-d5bf-4b83-8806-6032f44fbf58")
-	)
-	(no_connect
-		(at 80.01 102.87)
-		(uuid "89f717d4-939e-4ea6-b323-a9c4afd50c65")
 	)
 	(no_connect
 		(at 389.89 149.86)
@@ -5876,7 +5852,7 @@
 		)
 		(uuid "6cad8bff-32b7-49b0-b6ae-c38f937c829f")
 	)
-	(label "mgmt_debug"
+	(label "GPIO_MGMT_debug"
 		(at 92.71 209.55 180)
 		(effects
 			(font
@@ -6340,16 +6316,6 @@
 			(justify left bottom)
 		)
 		(uuid "a4e4cc99-4f74-4c3e-a723-2e4ace637aba")
-	)
-	(label "mgmt_debug"
-		(at 80.01 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a65b8517-b1d2-44a8-85b3-4a6331b29763")
 	)
 	(label "rck_mem_source_enB"
 		(at 364.49 66.04 270)
@@ -6862,6 +6828,17 @@
 		)
 		(uuid "0168bef1-de4b-451c-96ea-a0f47a1c6829")
 	)
+	(hierarchical_label "GPIO_MGMT_debug"
+		(shape input)
+		(at 80.01 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "08eb8f4d-4355-4e11-b397-17024c122a36")
+	)
 	(hierarchical_label "GPIO_ftdi_jtag_src_en"
 		(shape input)
 		(at 306.07 228.6 180)
@@ -6916,6 +6893,72 @@
 			(justify left)
 		)
 		(uuid "2320e19e-230f-4f00-b75d-b343b3c02cf9")
+	)
+	(hierarchical_label "GPIO_MGMT_flash2_io1"
+		(shape input)
+		(at 80.01 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2664c75f-adf8-46af-874e-7e13de3b022f")
+	)
+	(hierarchical_label "GPIO_MGMT_flash2_csb"
+		(shape input)
+		(at 80.01 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2664c75f-adf8-46af-874e-7e13de3b022f")
+	)
+	(hierarchical_label "GPIO_MGMT_flash2_io0"
+		(shape input)
+		(at 80.01 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2664c75f-adf8-46af-874e-7e13de3b022f")
+	)
+	(hierarchical_label "GPIO_MGMT_flash2_sck"
+		(shape input)
+		(at 80.01 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2664c75f-adf8-46af-874e-7e13de3b022f")
+	)
+	(hierarchical_label "GPIO_MGMT_irq"
+		(shape input)
+		(at 80.01 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2664c75f-adf8-46af-874e-7e13de3b022f")
+	)
+	(hierarchical_label "GPIO_MGMT_irq2"
+		(shape input)
+		(at 80.01 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2664c75f-adf8-46af-874e-7e13de3b022f")
 	)
 	(hierarchical_label "GPIO_rck_mem_sel_sdB"
 		(shape input)
@@ -15489,7 +15532,7 @@
 				(justify left)
 			)
 		)
-		(pin "MGMT_debug" bidirectional
+		(pin "GPIO_MGMT_debug" bidirectional
 			(at 95.25 209.55 180)
 			(uuid "0e71cc18-92da-463e-b9d6-f3ce7243c1e0")
 			(effects
@@ -16178,7 +16221,7 @@
 				(justify left)
 			)
 		)
-		(pin "MGMT_debug" bidirectional
+		(pin "GPIO_MGMT_debug" bidirectional
 			(at 82.55 100.33 180)
 			(uuid "8b64c64b-9f03-4314-926e-c78d870d5da6")
 			(effects

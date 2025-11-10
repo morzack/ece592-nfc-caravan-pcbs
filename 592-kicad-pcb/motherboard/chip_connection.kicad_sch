@@ -5160,7 +5160,7 @@
 		)
 		(uuid "e1fa6540-90b7-42da-a42f-5985a9279619")
 	)
-	(label "MGMT_debug"
+	(label "GPIO_MGMT_debug"
 		(at 168.91 104.14 180)
 		(effects
 			(font
@@ -5818,7 +5818,7 @@
 		)
 		(uuid "a682ae05-2c3f-4d1d-b514-c29fff1499bb")
 	)
-	(hierarchical_label "MGMT_debug"
+	(hierarchical_label "GPIO_MGMT_debug"
 		(shape bidirectional)
 		(at 133.35 43.18 180)
 		(effects

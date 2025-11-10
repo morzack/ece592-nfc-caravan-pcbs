@@ -2208,7 +2208,7 @@
 		)
 		(uuid "789cd0d3-325d-4b3b-85a9-f6700bd2ac8d")
 	)
-	(hierarchical_label "MGMT_debug"
+	(hierarchical_label "GPIO_MGMT_debug"
 		(shape bidirectional)
 		(at 62.23 153.67 0)
 		(effects
