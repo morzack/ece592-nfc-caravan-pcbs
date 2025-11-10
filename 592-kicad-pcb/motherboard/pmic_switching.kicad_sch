@@ -685,7 +685,7 @@
 	(text_box "1V8 USER DIGITAL\n3V3 USER ANALOG"
 		(exclude_from_sim no)
 		(at 38.1 60.96 0)
-		(size 124.46 50.8)
+		(size 142.24 50.8)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -705,7 +705,7 @@
 	(text_box "2V5 CHIP LDO"
 		(exclude_from_sim no)
 		(at 38.1 114.3 0)
-		(size 124.46 50.8)
+		(size 142.24 50.8)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -725,7 +725,7 @@
 	(text_box "3V3 MGMT\n1V8 MGMT"
 		(exclude_from_sim no)
 		(at 38.1 13.97 0)
-		(size 124.46 44.45)
+		(size 142.24 44.45)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1460,7 +1460,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 162.56) (xy 165.1 162.56)
+			(xy 109.22 162.56) (xy 167.64 162.56)
 		)
 		(stroke
 			(width 0)
@@ -1480,7 +1480,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 157.48) (xy 165.1 157.48)
+			(xy 139.7 157.48) (xy 167.64 157.48)
 		)
 		(stroke
 			(width 0)
@@ -1550,7 +1550,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 129.54) (xy 165.1 129.54)
+			(xy 152.4 129.54) (xy 167.64 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1779,7 +1779,7 @@
 		(uuid "3895df4d-2ffc-4906-809b-e299609aa7d6")
 	)
 	(label "ldo_to_adc"
-		(at 165.1 129.54 0)
+		(at 167.64 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1799,7 +1799,7 @@
 		(uuid "43e020ef-e8dd-4744-90fa-3d1bb9fe390c")
 	)
 	(label "VDD_EXT"
-		(at 165.1 157.48 0)
+		(at 167.64 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1939,7 +1939,7 @@
 		(uuid "d864aa2a-da22-40dd-a65b-a90c0e7a48c2")
 	)
 	(label "GND"
-		(at 165.1 162.56 0)
+		(at 167.64 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
