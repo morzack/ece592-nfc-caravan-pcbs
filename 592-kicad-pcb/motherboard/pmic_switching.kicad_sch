@@ -2815,14 +2815,14 @@
 		(dnp no)
 		(uuid "ed5afba6-4158-4051-8619-59ab5bb3c9c1")
 		(property "Reference" "F2"
-			(at 137.16 160.02 90)
+			(at 137.16 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "100mA hold, 250mA trip"
 			(at 137.16 159.258 90)
 			(effects
 				(font

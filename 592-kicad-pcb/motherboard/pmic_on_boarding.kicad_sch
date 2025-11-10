@@ -685,15 +685,15 @@
 		(dnp no)
 		(uuid "5b5ff38b-816a-4ccd-93f9-57f3e658941a")
 		(property "Reference" "F1"
-			(at 116.84 58.42 90)
+			(at 116.84 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 116.84 57.658 90)
+		(property "Value" "360mA hold, 500mA trip"
+			(at 116.84 57.912 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -754,15 +754,15 @@
 		(dnp no)
 		(uuid "9b0a4779-69d5-4f4d-bb75-d5c7e101c294")
 		(property "Reference" "FB1"
-			(at 106.68 64.77 90)
+			(at 106.934 66.294 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 106.6419 64.77 90)
+		(property "Value" "60Ohm @ 100MHz"
+			(at 106.8959 64.262 90)
 			(effects
 				(font
 					(size 1.27 1.27)
