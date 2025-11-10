@@ -1783,7 +1783,7 @@
 	)
 	(text "pull up on CSb to avoid tristate periph in"
 		(exclude_from_sim no)
-		(at 246.126 54.864 0)
+		(at 245.618 57.404 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1931,6 +1931,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5093284b-1d36-44d3-9c35-68d7a8b5212a")
+	)
+	(junction
+		(at 248.92 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a3ed561-3951-4d12-8799-17f204fc41c2")
 	)
 	(junction
 		(at 181.61 59.69)
@@ -2266,6 +2272,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 53.34) (xy 242.57 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09f89da9-3f46-4ef0-a9b4-74eecc6fb374")
+	)
+	(wire
+		(pts
 			(xy 160.02 58.42) (xy 160.02 59.69)
 		)
 		(stroke
@@ -2313,6 +2329,16 @@
 			(type default)
 		)
 		(uuid "0dda91ed-3a53-4f4c-8709-9f9a646a6f73")
+	)
+	(wire
+		(pts
+			(xy 257.81 45.72) (xy 257.81 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10f7eac1-f5ce-49c3-90c3-39c8e45f0dd3")
 	)
 	(wire
 		(pts
@@ -3476,6 +3502,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 40.64) (xy 257.81 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a789a6a0-8205-4342-a96e-148ee1eefb79")
+	)
+	(wire
+		(pts
 			(xy 125.73 133.35) (xy 128.27 133.35)
 		)
 		(stroke
@@ -3523,6 +3559,16 @@
 			(type default)
 		)
 		(uuid "b16c85e7-c259-4c3a-b442-a781fb9b2ad4")
+	)
+	(wire
+		(pts
+			(xy 248.92 39.37) (xy 257.81 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b24d4ed1-3095-4e89-8480-e040ec0acf8f")
 	)
 	(wire
 		(pts
@@ -5163,6 +5209,16 @@
 			(justify left bottom)
 		)
 		(uuid "effa6dc9-e725-470a-b875-e2624f50ed47")
+	)
+	(label "MGMT_CSB"
+		(at 242.57 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f1c307fb-8a02-4535-9e51-7fc78b60c8de")
 	)
 	(label "i2c_0_scl"
 		(at 250.19 134.62 0)
@@ -12482,6 +12538,147 @@
 			(project "motherboard"
 				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d/f049e4ad-bebe-4338-850a-2727de737ae9/f6d635ad-dccc-4a37-acef-12f77d37e99b"
 					(reference "#PWR0190")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 257.81 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd7af147-d8ea-4a94-a8ae-7025e947513e")
+		(property "Reference" "R58"
+			(at 260.35 41.9099 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 260.35 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 257.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 257.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 257.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Characteristics" ""
+			(at 257.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigikeyPN" ""
+			(at 257.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 257.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN_ALT" ""
+			(at 257.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 257.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Variant" ""
+			(at 257.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" ""
+			(at 257.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d35c08a8-b5f6-4391-9537-6c702f3a7bb7")
+		)
+		(pin "1"
+			(uuid "643c3b49-b93f-4375-86b9-1f08de616964")
+		)
+		(instances
+			(project "motherboard"
+				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d/f049e4ad-bebe-4338-850a-2727de737ae9/f6d635ad-dccc-4a37-acef-12f77d37e99b"
+					(reference "R58")
 					(unit 1)
 				)
 			)
