@@ -1718,7 +1718,7 @@
 		)
 		(uuid "fe5cf7f5-65ca-4ff8-b7d8-221542f0347f")
 	)
-	(label "3V3_LDO"
+	(label "3V3"
 		(at 58.42 88.9 0)
 		(effects
 			(font
@@ -1758,7 +1758,7 @@
 		)
 		(uuid "276f4956-dea0-43ab-a081-b95aafcdea30")
 	)
-	(label "1V8_BUCK"
+	(label "1V8"
 		(at 58.42 30.48 0)
 		(effects
 			(font
@@ -1838,7 +1838,7 @@
 		)
 		(uuid "758fb125-5ca8-4d29-90c4-e9d50753ad1e")
 	)
-	(label "1V8_BUCK"
+	(label "1V8"
 		(at 58.42 76.2 0)
 		(effects
 			(font
@@ -1848,7 +1848,7 @@
 		)
 		(uuid "78db2c5d-8378-4ef5-99d1-de291b904364")
 	)
-	(label "3V3_LDO"
+	(label "3V3"
 		(at 58.42 43.18 0)
 		(effects
 			(font
@@ -1898,7 +1898,7 @@
 		)
 		(uuid "b6c825d3-f428-4446-ad5c-a54f4b1d9cc9")
 	)
-	(label "2V5_LDO"
+	(label "2V5"
 		(at 58.42 129.54 0)
 		(effects
 			(font
@@ -2044,7 +2044,7 @@
 		)
 		(uuid "7551f003-5138-4402-8e98-8d605c67fccf")
 	)
-	(hierarchical_label "1V8_BUCK"
+	(hierarchical_label "1V8"
 		(shape input)
 		(at 20.32 33.02 0)
 		(effects
@@ -2055,7 +2055,7 @@
 		)
 		(uuid "7bf41d08-b7b2-4edb-bf5f-ebcc86a67272")
 	)
-	(hierarchical_label "2V5_LDO"
+	(hierarchical_label "2V5"
 		(shape input)
 		(at 20.32 38.1 0)
 		(effects
@@ -2099,7 +2099,7 @@
 		)
 		(uuid "a37fc7b7-0906-4411-9765-2e47b798b6e2")
 	)
-	(hierarchical_label "3V3_LDO"
+	(hierarchical_label "3V3"
 		(shape input)
 		(at 20.32 35.56 0)
 		(effects
@@ -2822,7 +2822,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 137.16 159.258 90)
 			(effects
 				(font
