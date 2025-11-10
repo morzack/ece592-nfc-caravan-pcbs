@@ -60,7 +60,7 @@
 		(at 0 0)
 		(size 0.6 0.6)
 		(drill 0.3)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu")
 		(remove_unused_layers no)
 		(zone_connect 2)
 		(uuid "7b9758f2-b006-46b2-909e-b8b96edfb835")
