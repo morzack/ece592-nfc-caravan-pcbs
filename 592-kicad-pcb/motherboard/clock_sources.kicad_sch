@@ -3863,7 +3863,7 @@
 		)
 		(uuid "1caecd21-eae7-41df-89f4-8b02d9ce7929")
 	)
-	(label "CARAVEL_CLK_SEL"
+	(label "CARAVEL_CLK_EN"
 		(at 62.23 157.48 0)
 		(effects
 			(font
