@@ -14855,6 +14855,48 @@
 		)
 	)
 	(sheet
+		(at 342.9 203.2)
+		(size 44.45 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "260af3dc-9286-4c76-9c6c-eeb806d3e6e5")
+		(property "Sheetname" "pmic_switching"
+			(at 342.9 202.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pmic_switching.kicad_sch"
+			(at 342.9 244.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motherboard"
+				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d/f049e4ad-bebe-4338-850a-2727de737ae9"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 29.21 278.13)
 		(size 21.59 38.1)
 		(exclude_from_sim no)
@@ -15091,8 +15133,50 @@
 		)
 	)
 	(sheet
-		(at 95.25 153.67)
-		(size 43.18 71.12)
+		(at 290.83 203.2)
+		(size 41.91 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5cd7239b-a735-4cd0-9e02-9ed9ef16f904")
+		(property "Sheetname" "pmic_supplies"
+			(at 290.83 202.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pmic_supplies.kicad_sch"
+			(at 290.83 244.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motherboard"
+				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d/f049e4ad-bebe-4338-850a-2727de737ae9"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 156.21)
+		(size 43.18 68.58)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -15784,6 +15868,48 @@
 			(project "motherboard"
 				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d/f049e4ad-bebe-4338-850a-2727de737ae9"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 233.68 203.2)
+		(size 41.91 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dbe4469e-0fdf-4a67-ba41-36d27b688d04")
+		(property "Sheetname" "pmic_on_boarding"
+			(at 233.68 202.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pmic_on_boarding.kicad_sch"
+			(at 233.68 244.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motherboard"
+				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d/f049e4ad-bebe-4338-850a-2727de737ae9"
+					(page "9")
 				)
 			)
 		)

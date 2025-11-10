@@ -464,7 +464,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "592-partslib"
+    ]
   },
   "meta": {
     "filename": "motherboard.kicad_pro",
@@ -757,6 +759,18 @@
     [
       "f049e4ad-bebe-4338-850a-2727de737ae9",
       "motherboard_top"
+    ],
+    [
+      "dbe4469e-0fdf-4a67-ba41-36d27b688d04",
+      "pmic_on_boarding"
+    ],
+    [
+      "5cd7239b-a735-4cd0-9e02-9ed9ef16f904",
+      "pmic_supplies"
+    ],
+    [
+      "260af3dc-9286-4c76-9c6c-eeb806d3e6e5",
+      "pmic_switching"
     ]
   ],
   "text_variables": {}

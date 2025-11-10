@@ -449,7 +449,8 @@
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": [
-      "592-partslib"
+      "592-partslib",
+      "LT1761ES5-BYPTRMPBF"
     ]
   },
   "meta": {
