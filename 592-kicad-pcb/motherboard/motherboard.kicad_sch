@@ -3763,7 +3763,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "2db5a429-513c-4db3-a361-a293e0dd2552")
+		(uuid "2db5a429-513c-4db3-a361-a293e0dd2553")
 	)
 	(label "PF8_SPI5_MISO"
 		(at 73.66 102.87 0)
@@ -3773,7 +3773,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "2db5a429-513c-4db3-a361-a293e0dd2552")
+		(uuid "2db5a429-513c-4db3-a361-a293e0dd2554")
 	)
 	(label "PF7_SPI5_SCK"
 		(at 73.66 107.95 0)
@@ -3783,7 +3783,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "2db5a429-513c-4db3-a361-a293e0dd2552")
+		(uuid "2db5a429-513c-4db3-a361-a293e0dd2555")
 	)
 	(label "PA4_DAC_OUT1"
 		(at 73.66 39.37 0)
@@ -3853,7 +3853,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "72bd634d-8df8-470d-b710-4a315c101549")
+		(uuid "72bd634d-8df8-470d-b710-4a315c10154a")
 	)
 	(label "PA1_UART4_TX"
 		(at 73.66 77.47 0)
@@ -3873,7 +3873,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "807e0765-669a-4124-9386-230b9efe2030")
+		(uuid "807e0765-669a-4124-9386-230b9efe2031")
 	)
 	(label "PF9_SPI5_MOSI"
 		(at 120.65 151.13 180)
@@ -3923,7 +3923,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "9e97f14b-b471-4bc8-9935-bc2b24c1335d")
+		(uuid "9e97f14b-b471-4bc8-9935-bc2b24c1335e")
 	)
 	(label "PG12"
 		(at 73.66 125.73 0)
@@ -3933,7 +3933,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "9e97f14b-b471-4bc8-9935-bc2b24c1335d")
+		(uuid "9e97f14b-b471-4bc8-9935-bc2b24c1335f")
 	)
 	(label "PG9"
 		(at 73.66 118.11 0)
@@ -3943,7 +3943,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "9e97f14b-b471-4bc8-9935-bc2b24c1335d")
+		(uuid "9e97f14b-b471-4bc8-9935-bc2b24c13360")
 	)
 	(label "PG1"
 		(at 73.66 115.57 0)
@@ -3953,7 +3953,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "9e97f14b-b471-4bc8-9935-bc2b24c1335d")
+		(uuid "9e97f14b-b471-4bc8-9935-bc2b24c13361")
 	)
 	(label "PG10"
 		(at 73.66 120.65 0)
@@ -3963,7 +3963,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "9e97f14b-b471-4bc8-9935-bc2b24c1335d")
+		(uuid "9e97f14b-b471-4bc8-9935-bc2b24c13362")
 	)
 	(label "PD7"
 		(at 73.66 123.19 0)
@@ -3973,7 +3973,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "9e97f14b-b471-4bc8-9935-bc2b24c1335d")
+		(uuid "9e97f14b-b471-4bc8-9935-bc2b24c13363")
 	)
 	(label "PF7_SPI5_SCK"
 		(at 120.65 146.05 180)
@@ -4053,7 +4053,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d44b03cf-4223-4997-85a8-a0faffda8639")
+		(uuid "d44b03cf-4223-4997-85a8-a0faffda863a")
 	)
 	(label "nucleo_5v"
 		(at 146.05 26.67 90)
@@ -4135,7 +4135,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "39653c5d-2317-4488-b208-ec2cb905d585")
-		(property "Reference" "U16"
+		(property "Reference" "U1"
 			(at 178.6733 29.21 0)
 			(effects
 				(font
@@ -4679,7 +4679,7 @@
 		(instances
 			(project ""
 				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d"
-					(reference "U16")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -4695,7 +4695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72a18dce-b5c9-4e2e-8987-665a64748261")
-		(property "Reference" "#PWR0157"
+		(property "Reference" "#PWR01"
 			(at 135.89 233.68 0)
 			(effects
 				(font
@@ -4745,7 +4745,7 @@
 		(instances
 			(project ""
 				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d"
-					(reference "#PWR0157")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
