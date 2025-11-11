@@ -1,4 +1,4 @@
-26239191505157851
+26248005850863374
 592-partslib
 DF40C40DP04V51
 DF40C-40DP-0.4V(51)-1
@@ -13,6 +13,41 @@ Connector
 0
 40
 40
+592-partslib
+IND_CB_SD10
+
+SD10-3R3-R 
+0
+2
+2
+592-partslib
+IND_CB_SD10-L
+
+SD10-3R3-R 
+0
+2
+2
+592-partslib
+IND_CB_SD10-M
+
+SD10-3R3-R 
+0
+2
+2
+592-partslib
+QFN-64-1EP_9x9mm_P0.5mm_EP7.65x7.65mm_SMALL_EPAD
+QFN, 64 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf (page 415)), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+81
+65
+592-partslib
+SD10-3R3-R
+
+
+0
+2
+2
 592-partslib
 SMXS-04K-TP
 
