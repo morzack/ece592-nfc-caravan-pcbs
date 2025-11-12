@@ -1920,6 +1920,46 @@
 		)
 		(uuid "3565cedf-a5a8-475f-ad7e-02c0b8e18294")
 	)
+	(label "a2"
+		(at 43.18 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3e152ff5-c4f6-4658-868d-b16e0524aea1")
+	)
+	(label "a1"
+		(at 43.18 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3e152ff5-c4f6-4658-868d-b16e0524aea1")
+	)
+	(label "a1"
+		(at 76.2 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e152ff5-c4f6-4658-868d-b16e0524aea1")
+	)
+	(label "a2"
+		(at 76.2 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e152ff5-c4f6-4658-868d-b16e0524aea1")
+	)
 	(label "ANA_MUX_OUT_1_BUF"
 		(at 44.45 26.67 180)
 		(effects
@@ -1979,26 +2019,6 @@
 			(justify right bottom)
 		)
 		(uuid "d3796ecd-c419-490e-9c90-ccc82be2cfe2")
-	)
-	(label "ANA_MUX_OUT_2_BUF"
-		(at 43.18 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dd0ecc70-376a-4c42-b35a-f2c688335590")
-	)
-	(label "ANA_MUX_OUT_1_BUF"
-		(at 43.18 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ec7947a9-f387-47bb-9e83-f689e9d9ba87")
 	)
 	(label "ANA_MUX_OUT_2_BUF"
 		(at 87.63 100.33 0)
@@ -2301,7 +2321,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 80.01 86.36 90)
+			(at 82.804 88.138 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3290,7 +3310,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 80.01 102.87 90)
+			(at 83.566 105.156 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3429,7 +3449,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 167.64 72.39 90)
+			(at 171.958 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)

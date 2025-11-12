@@ -5518,7 +5518,7 @@
 		(uuid "0202054b-e835-4326-b434-d173671a749e")
 	)
 	(label "chip_rck_jtag_tms"
-		(at 491.49 232.41 0)
+		(at 491.49 201.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6085,7 +6085,7 @@
 		(uuid "6e773d24-2340-4920-9b4f-452414ee5832")
 	)
 	(label "chip_rck_jtag_tdo"
-		(at 491.49 201.93 0)
+		(at 491.49 232.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6591,7 +6591,7 @@
 		(uuid "aa7b4e77-3194-460c-8769-9725561e0a46")
 	)
 	(label "GPIO_chip_nfc_jtag_tdo"
-		(at 491.49 207.01 0)
+		(at 491.49 237.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6849,7 +6849,7 @@
 		(uuid "d948e8a2-7036-4831-b408-ff6b74c2b7a4")
 	)
 	(label "chip_nfc_jtag_tms"
-		(at 491.49 237.49 0)
+		(at 491.49 207.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6984,7 +6984,7 @@
 		(uuid "ef8a631e-b55d-4d32-b5fb-9389cbc42660")
 	)
 	(label "ftdi1_jtag_tms"
-		(at 471.17 234.95 180)
+		(at 471.17 204.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7027,7 +7027,7 @@
 		(uuid "f9f32265-23b3-48d1-bfce-1c1b98c299a6")
 	)
 	(label "ftdi1_jtag_tdo"
-		(at 471.17 204.47 180)
+		(at 471.17 234.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7857,7 +7857,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08f2fec0-d1ba-4537-8fdd-6281f522be82")
 		(property "Reference" "U16"

@@ -2543,10 +2543,6 @@
 		(uuid "ff2e1127-98d5-444a-aeda-e3cf187e2a23")
 	)
 	(no_connect
-		(at 356.87 200.66)
-		(uuid "006bd658-4bb8-4384-9714-2416232a217e")
-	)
-	(no_connect
 		(at 104.14 55.88)
 		(uuid "0774fbcf-bab0-4fa8-a02b-26fcf0ff7d3d")
 	)
@@ -2587,10 +2583,6 @@
 		(uuid "2bbdd1ca-0ba4-47e0-bd44-1e61142a736c")
 	)
 	(no_connect
-		(at 377.19 198.12)
-		(uuid "362b9830-c981-4ec3-b3f7-64a8ce8d09f5")
-	)
-	(no_connect
 		(at 133.35 48.26)
 		(uuid "3d2c1435-ab54-46f8-9804-03e657a8eb60")
 	)
@@ -2629,10 +2621,6 @@
 	(no_connect
 		(at 58.42 48.26)
 		(uuid "5a970d6e-d37a-4eff-aaab-2848135e104d")
-	)
-	(no_connect
-		(at 377.19 203.2)
-		(uuid "5cfd4888-d156-4dfe-a722-2c4157d5614d")
 	)
 	(no_connect
 		(at 41.91 71.12)
@@ -3408,7 +3396,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 203.2) (xy 335.28 203.2)
+			(xy 332.74 187.96) (xy 335.28 187.96)
 		)
 		(stroke
 			(width 0)
@@ -5517,7 +5505,7 @@
 		(uuid "02a56511-861c-4af7-89e2-cb34a482a831")
 	)
 	(label "mprj_io_0"
-		(at 356.87 185.42 180)
+		(at 356.87 200.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5527,7 +5515,7 @@
 		(uuid "040a8bce-535b-4b37-8c7a-5cc45bff17bf")
 	)
 	(label "mprj_io_12"
-		(at 208.28 185.42 180)
+		(at 255.27 231.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5547,7 +5535,7 @@
 		(uuid "05c6788b-5fdb-4bd2-b2de-dd08179af7ff")
 	)
 	(label "MGMT_irq2"
-		(at 228.6 182.88 0)
+		(at 275.59 228.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5567,7 +5555,7 @@
 		(uuid "166c02be-314f-48f0-b175-f7c76533da4a")
 	)
 	(label "MGMT_SDI"
-		(at 327.66 213.36 0)
+		(at 327.66 228.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5577,7 +5565,7 @@
 		(uuid "183056a4-a228-4759-b804-e25f0fab45fc")
 	)
 	(label "spi_0_sck"
-		(at 275.59 203.2 0)
+		(at 228.6 187.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5657,7 +5645,7 @@
 		(uuid "32fafa12-95cf-4784-ab8c-f9da8cf99b54")
 	)
 	(label "MGMT_flash2_csb"
-		(at 275.59 182.88 0)
+		(at 228.6 198.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5677,7 +5665,7 @@
 		(uuid "39abbe88-50ca-4c8f-af78-5c5f5c018211")
 	)
 	(label "mprj_io_4"
-		(at 307.34 185.42 180)
+		(at 307.34 200.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5687,7 +5675,7 @@
 		(uuid "3fc429a0-6c7c-49d5-a8df-8e0459d7bae2")
 	)
 	(label "mprj_io_8"
-		(at 255.27 185.42 180)
+		(at 208.28 200.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5697,7 +5685,7 @@
 		(uuid "43f79c12-1bb0-4b2c-a774-d3460d84da69")
 	)
 	(label "gpio_0_0"
-		(at 228.6 233.68 0)
+		(at 228.6 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5737,7 +5725,7 @@
 		(uuid "45bc25e6-9629-44c2-b549-40d8ca490e77")
 	)
 	(label "gpio_1_0"
-		(at 228.6 218.44 0)
+		(at 228.6 233.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5747,7 +5735,7 @@
 		(uuid "46bc0611-6b5d-435a-aa58-99e6202ca0c6")
 	)
 	(label "mprj_io_10"
-		(at 208.28 215.9 180)
+		(at 208.28 231.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5777,7 +5765,7 @@
 		(uuid "54977429-88d8-4c13-a04b-c33422bed538")
 	)
 	(label "mprj_io_5"
-		(at 255.27 231.14 180)
+		(at 255.27 185.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5787,7 +5775,7 @@
 		(uuid "5666c579-3d1d-4a27-80c7-8f273c62f2e2")
 	)
 	(label "mprj_io_7"
-		(at 255.27 200.66 180)
+		(at 208.28 185.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5797,7 +5785,7 @@
 		(uuid "569d954d-3795-4d1d-be21-408cd697fa72")
 	)
 	(label "mprj_io_1"
-		(at 307.34 232.41 180)
+		(at 307.34 215.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5847,7 +5835,7 @@
 		(uuid "6330967a-d6c5-47b9-be4f-04c5bdb2cb9e")
 	)
 	(label "mprj_io_11"
-		(at 208.28 200.66 180)
+		(at 255.27 215.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5857,7 +5845,7 @@
 		(uuid "682b3fb9-156f-4b19-aee0-ab69c5b55351")
 	)
 	(label "jtag_TCK"
-		(at 377.19 187.96 0)
+		(at 377.19 203.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5877,7 +5865,7 @@
 		(uuid "6cb75fe0-1205-4465-9e5d-12dbc1b85f50")
 	)
 	(label "MGMT_SDO"
-		(at 327.66 228.6 0)
+		(at 327.66 213.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5897,7 +5885,7 @@
 		(uuid "6e188c38-9983-4ebb-bd4c-d3e82616770d")
 	)
 	(label "MGMT_flash2_sck"
-		(at 228.6 228.6 0)
+		(at 228.6 213.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5917,7 +5905,7 @@
 		(uuid "77fb2b64-7df4-4ba2-9dc3-7a3f009b895b")
 	)
 	(label "i2c_0_sda"
-		(at 228.6 203.2 0)
+		(at 275.59 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5927,7 +5915,7 @@
 		(uuid "79d9a825-c1b0-4801-a8dd-67f2c644379e")
 	)
 	(label "MGMT_flash2_io1"
-		(at 228.6 198.12 0)
+		(at 275.59 213.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5947,7 +5935,7 @@
 		(uuid "7d6066ae-3e64-43f9-9db7-c079961a66ba")
 	)
 	(label "GPIO_MGMT_debug"
-		(at 377.19 182.88 0)
+		(at 377.19 198.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6007,7 +5995,7 @@
 		(uuid "86b8509d-3ebd-4710-889b-bcbea06e334e")
 	)
 	(label "MGMT_flash2_io0"
-		(at 228.6 213.36 0)
+		(at 228.6 228.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6017,7 +6005,7 @@
 		(uuid "8cade82d-8dee-434b-ad89-5506919eb12d")
 	)
 	(label "MGMT_CSB"
-		(at 327.66 198.12 0)
+		(at 327.66 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6047,7 +6035,7 @@
 		(uuid "927e12f8-9c8d-4ecf-b71f-af4174687540")
 	)
 	(label "reset_io"
-		(at 275.59 187.96 0)
+		(at 228.6 203.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6057,7 +6045,7 @@
 		(uuid "93e1b4d6-5dcd-4b9a-b6c7-f6df83ec461e")
 	)
 	(label "mprj_io_3"
-		(at 307.34 200.66 180)
+		(at 307.34 185.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6207,7 +6195,7 @@
 		(uuid "afeecc2f-b67e-4733-89b1-d6d66ed902a6")
 	)
 	(label "jtag_TDI"
-		(at 327.66 218.44 0)
+		(at 327.66 233.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6227,7 +6215,7 @@
 		(uuid "b1eb7cfa-5c3a-4e50-8bd1-4ce7544947e2")
 	)
 	(label "MGMT_SCK"
-		(at 327.66 182.88 0)
+		(at 327.66 198.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6267,7 +6255,7 @@
 		(uuid "b8084b87-824d-4894-8ebc-41f62107474d")
 	)
 	(label "i2c_0_scl"
-		(at 228.6 187.96 0)
+		(at 275.59 233.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6277,7 +6265,7 @@
 		(uuid "be7614e3-fc13-4cbe-9387-4b83a9466859")
 	)
 	(label "mprj_io_9"
-		(at 208.28 231.14 180)
+		(at 208.28 215.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6287,7 +6275,7 @@
 		(uuid "c17ec128-99a1-4187-87bc-dbdd3da29b8b")
 	)
 	(label "jtag_TDO"
-		(at 335.28 203.2 0)
+		(at 335.28 187.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6307,7 +6295,7 @@
 		(uuid "c70d6dd1-ef15-4d1b-b080-e261d1d7aa36")
 	)
 	(label "MGMT_ser_rx"
-		(at 275.59 228.6 0)
+		(at 275.59 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6347,7 +6335,7 @@
 		(uuid "cfdd6d2c-b3c9-4ba8-bcb5-0b38530ea293")
 	)
 	(label "MGMT_ser_tx"
-		(at 275.59 213.36 0)
+		(at 275.59 198.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6357,7 +6345,7 @@
 		(uuid "d15603e3-1eb0-43ce-aa55-c0beab926adc")
 	)
 	(label "spi_0_dq_1"
-		(at 327.66 187.96 0)
+		(at 327.66 203.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6387,7 +6375,7 @@
 		(uuid "d9c50e22-c849-43a0-aa4d-105f25cb62fc")
 	)
 	(label "spi_0_dq_0"
-		(at 275.59 233.68 0)
+		(at 275.59 187.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6397,7 +6385,7 @@
 		(uuid "ddf1def2-0927-4afa-91ed-4d2353095bb4")
 	)
 	(label "spi_0_cs_0"
-		(at 275.59 218.44 0)
+		(at 275.59 203.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6427,7 +6415,7 @@
 		(uuid "e1fa6540-90b7-42da-a42f-5985a9279619")
 	)
 	(label "jtag_TMS"
-		(at 327.66 233.68 0)
+		(at 327.66 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6467,7 +6455,7 @@
 		(uuid "f2b5b734-edd5-4063-9bc8-4426bbb4439e")
 	)
 	(label "MGMT_irq"
-		(at 275.59 198.12 0)
+		(at 228.6 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6507,7 +6495,7 @@
 		(uuid "f8c03315-c4ef-49d8-ac78-e713d82d77bd")
 	)
 	(label "mprj_io_6"
-		(at 255.27 215.9 180)
+		(at 255.27 200.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6517,7 +6505,7 @@
 		(uuid "fc095bb1-1685-4150-9e02-d699aa90b5bc")
 	)
 	(label "mprj_io_2"
-		(at 307.34 215.9 180)
+		(at 307.34 231.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14123,7 +14111,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 330.2 203.2 90)
+		(at 330.2 187.96 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14131,7 +14119,7 @@
 		(dnp no)
 		(uuid "b6daeed8-5319-4e9a-a1a6-f3bb93df5ee1")
 		(property "Reference" "R87"
-			(at 331.978 201.168 90)
+			(at 331.978 185.928 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -14140,7 +14128,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 331.47 203.2 90)
+			(at 331.47 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14149,7 +14137,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 330.2 203.2 0)
+			(at 330.2 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14158,7 +14146,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 330.2 203.2 0)
+			(at 330.2 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14167,7 +14155,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 330.2 203.2 0)
+			(at 330.2 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14176,7 +14164,7 @@
 			)
 		)
 		(property "LCSC" "C17168"
-			(at 330.2 203.2 90)
+			(at 330.2 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
