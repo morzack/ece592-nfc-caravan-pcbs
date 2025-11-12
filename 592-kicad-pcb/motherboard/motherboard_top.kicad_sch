@@ -2176,6 +2176,16 @@
 		)
 		(uuid "304ea07a-8b54-4aa1-88cf-331af4d112d8")
 	)
+	(text "need to map the motherboard pins to nucleo pins on root level\ndon't forget to make note of which in google drive"
+		(exclude_from_sim no)
+		(at 157.48 389.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "30d9d703-8093-4fb5-8ee2-eaca4b41420b")
+	)
 	(text "pmod typ2 spi, rocketchip"
 		(exclude_from_sim no)
 		(at 186.436 183.642 0)
