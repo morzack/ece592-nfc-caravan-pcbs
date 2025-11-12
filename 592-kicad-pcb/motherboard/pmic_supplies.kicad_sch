@@ -3389,7 +3389,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "cf928212-176e-46d2-8e62-6d6716901e60")
 		(property "Reference" "U22"
 			(at 114.3 44.958 0)

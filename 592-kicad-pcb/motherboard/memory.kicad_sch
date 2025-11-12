@@ -4857,7 +4857,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 55.88 118.11 0)
 			(effects
 				(font
@@ -4876,6 +4876,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 55.88 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25741"
 			(at 55.88 118.11 0)
 			(effects
 				(font
@@ -4926,7 +4935,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 60.96 53.34 0)
 			(effects
 				(font
@@ -4945,6 +4954,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 60.96 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25741"
 			(at 60.96 53.34 0)
 			(effects
 				(font
