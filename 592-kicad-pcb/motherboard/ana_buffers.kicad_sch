@@ -1938,7 +1938,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "3e152ff5-c4f6-4658-868d-b16e0524aea1")
+		(uuid "3e152ff5-c4f6-4658-868d-b16e0524aea2")
 	)
 	(label "a1"
 		(at 76.2 86.36 0)
@@ -1948,7 +1948,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "3e152ff5-c4f6-4658-868d-b16e0524aea1")
+		(uuid "3e152ff5-c4f6-4658-868d-b16e0524aea3")
 	)
 	(label "a2"
 		(at 76.2 102.87 0)
@@ -1958,7 +1958,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "3e152ff5-c4f6-4658-868d-b16e0524aea1")
+		(uuid "3e152ff5-c4f6-4658-868d-b16e0524aea4")
 	)
 	(label "ANA_MUX_OUT_1_BUF"
 		(at 44.45 26.67 180)
