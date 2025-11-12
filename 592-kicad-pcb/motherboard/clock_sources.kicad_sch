@@ -2120,6 +2120,16 @@
 		)
 		(uuid "bab1ab4f-1b30-4a2c-85ec-9798b7e00683")
 	)
+	(text "might need termination to match from STM (~100 ohm out)"
+		(exclude_from_sim no)
+		(at 196.088 58.928 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c7650436-66ef-4eae-b3f9-e3162c51c706")
+	)
 	(text "GPIO also connects to *SEL pins\nin open-drain to drive PDN to ground"
 		(exclude_from_sim no)
 		(at 35.306 145.288 0)
@@ -2314,6 +2324,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6cb91029-6c16-4f76-a1be-051d9ff850b4")
+	)
+	(junction
+		(at 198.12 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70f07a95-93db-4cbb-af30-30ed889f6be8")
 	)
 	(junction
 		(at 214.63 104.14)
@@ -2985,16 +3001,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 86.36) (xy 205.74 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "658f0edd-eaaa-4c54-9600-bfa77957f849")
-	)
-	(wire
-		(pts
 			(xy 46.99 101.6) (xy 58.42 101.6)
 		)
 		(stroke
@@ -3172,6 +3178,16 @@
 			(type default)
 		)
 		(uuid "7a844804-6207-4b7d-a41f-daaa34d4c7a9")
+	)
+	(wire
+		(pts
+			(xy 194.31 86.36) (xy 198.12 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aa18c64-baa6-4db0-b5bc-ffdb332396e6")
 	)
 	(wire
 		(pts
@@ -3555,6 +3571,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 86.36) (xy 205.74 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba601c1f-e5f1-4aa6-a2d1-1d23ea50b4c2")
+	)
+	(wire
+		(pts
 			(xy 82.55 153.67) (xy 82.55 154.94)
 		)
 		(stroke
@@ -3893,6 +3919,16 @@
 		)
 		(uuid "faadbc37-2e4b-492a-b84c-4b31391def90")
 	)
+	(wire
+		(pts
+			(xy 185.42 86.36) (xy 189.23 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbd20ee2-8c71-4dfe-87c5-72ac0731e5d3")
+	)
 	(label "CARAVEL_CLK_10M"
 		(at 148.59 228.6 0)
 		(effects
@@ -4024,12 +4060,12 @@
 		(uuid "6ed2e260-95cd-4d64-bd13-9a31cf4683f6")
 	)
 	(label "CLK_DIG_GPIO_GEN"
-		(at 203.2 86.36 180)
+		(at 185.42 86.36 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "7031f683-e069-4ed2-b0a5-29b5755c5a7f")
 	)
@@ -4282,6 +4318,74 @@
 			(justify left)
 		)
 		(uuid "f3011eae-6b3e-4dec-9190-7550dbbae6bd")
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 191.77 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08df31a8-0dbd-4519-a5c6-013d4d58e829")
+		(property "Reference" "R70"
+			(at 191.77 81.28 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 191.77 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 191.77 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7de0ce60-b7da-483c-907a-568482927eed")
+		)
+		(pin "1"
+			(uuid "0b83770a-550d-4028-b598-7b2d79a69f68")
+		)
+		(instances
+			(project ""
+				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d/f049e4ad-bebe-4338-850a-2727de737ae9/3a030d94-f28f-47c8-8fe2-a633abb16730"
+					(reference "R70")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
