@@ -526,7 +526,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "pcba/v1p1/gerber/",
+      "plot": "pcba/daughter/",
       "pos_files": "/tmp/",
       "specctra_dsn": "",
       "step": "sky130_nfc_daughter.step",

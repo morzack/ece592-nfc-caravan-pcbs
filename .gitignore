@@ -13,6 +13,9 @@
 *-bak*
 *~
 ~*
+*.gbr
+*.gbrjob
+*.drl
 _autosave-*
 \#auto_saved_files\#
 *.tmp
