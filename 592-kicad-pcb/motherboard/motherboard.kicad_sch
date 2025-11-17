@@ -3715,7 +3715,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 139.7) (xy 73.66 139.7)
+			(xy 71.12 137.16) (xy 73.66 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4164,7 +4164,7 @@
 		(uuid "47f949aa-042b-4c65-aebd-2b3fdce30225")
 	)
 	(label "nucleo_5v"
-		(at 73.66 139.7 0)
+		(at 73.66 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5672,7 +5672,7 @@
 			)
 		)
 		(pin "nucleo_5v" input
-			(at 71.12 139.7 0)
+			(at 71.12 137.16 0)
 			(uuid "2f4f1753-a759-47b0-8d3a-ba32e0f6c1f5")
 			(effects
 				(font
@@ -5874,6 +5874,86 @@
 		(pin "GPIO_MGMT_debug" input
 			(at 71.12 125.73 0)
 			(uuid "d260b690-1098-4cbd-811a-9459599d4e4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_PMIC_cm_2v5" output
+			(at 71.12 152.4 0)
+			(uuid "df02d0f0-1d11-438b-b822-115578d57c66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_PMIC_cm_dig" output
+			(at 71.12 154.94 0)
+			(uuid "eb357d70-db98-44a9-bf46-3b61cb78bb20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "gpio_0" input
+			(at 71.12 139.7 0)
+			(uuid "c5166e6f-154c-448a-a0b0-50156dde883a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "gpio_1" input
+			(at 71.12 142.24 0)
+			(uuid "b23cec5d-a8b7-4d5d-8a2d-88c21b4785c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "gpio_2" input
+			(at 71.12 144.78 0)
+			(uuid "a7df3e5d-3c57-42a5-8874-6485f3a8fb28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "gpio_3" input
+			(at 71.12 147.32 0)
+			(uuid "1a69ef63-abb1-4615-a9a3-f0f000076834")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_MGMT_enable" input
+			(at 71.12 128.27 0)
+			(uuid "78b026c5-2451-46c4-9514-2f4dfe8eafb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "power_good" output
+			(at 71.12 149.86 0)
+			(uuid "dc915da0-5482-4e01-b01c-ef11a7f646c9")
 			(effects
 				(font
 					(size 1.27 1.27)

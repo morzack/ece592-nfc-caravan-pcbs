@@ -745,7 +745,7 @@
 	(text_box "CURRENT MONITOR"
 		(exclude_from_sim no)
 		(at 116.84 63.5 0)
-		(size 41.91 38.1)
+		(size 43.18 38.1)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -765,7 +765,7 @@
 	(text_box "CURRENT MONITOR"
 		(exclude_from_sim no)
 		(at 116.84 116.84 0)
-		(size 41.91 38.1)
+		(size 43.18 38.1)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
