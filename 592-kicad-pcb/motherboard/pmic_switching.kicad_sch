@@ -163,6 +163,334 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "592-partslib:ISL54059IRUZ-T"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 20.32 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "ISL54059IRUZ-T"
+				(at 20.32 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "UTQFN10_1P85X1P45_INR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "ISL54059IRUZ-T"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "ISL54059IRUZ-T"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "UTQFN10_1P85X1P45_INR UTQFN10_1P85X1P45_INR-M UTQFN10_1P85X1P45_INR-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ISL54059IRUZ-T_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -17.78)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -17.78) (xy 33.02 -17.78)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 -17.78) (xy 33.02 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "NC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "COM2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "NO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 0 180)
+					(length 7.62)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 -2.54 180)
+					(length 7.62)
+					(name "NC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 -5.08 180)
+					(length 7.62)
+					(name "COM1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 -7.62 180)
+					(length 7.62)
+					(name "NO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 40.64 -10.16 180)
+					(length 7.62)
+					(name "IN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 40.64 -12.7 180)
+					(length 7.62)
+					(name "IN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "592-partslib:ISL54059IRUZ-T_uTQFN"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -795,12 +1123,6 @@
 		(uuid "08306538-1fbc-4bf7-88f2-1543581f7b61")
 	)
 	(junction
-		(at 68.58 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f1a80a2-08ba-4cbd-b0c0-ed635e8e085b")
-	)
-	(junction
 		(at 152.4 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1190,7 +1512,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 43.18) (xy 68.58 33.02)
+			(xy 68.58 33.02) (xy 68.58 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1300,16 +1622,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 43.18) (xy 71.12 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75e534d3-cbb8-4422-baba-f9f8e66a7fd1")
-	)
-	(wire
-		(pts
 			(xy 152.4 76.2) (xy 165.1 76.2)
 		)
 		(stroke
@@ -1367,16 +1679,6 @@
 			(type default)
 		)
 		(uuid "8d2addfc-4e62-42ba-8351-efb39a5660f7")
-	)
-	(wire
-		(pts
-			(xy 68.58 45.72) (xy 68.58 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e2e6bf0-8605-4aca-977d-05c9a759aa13")
 	)
 	(wire
 		(pts
@@ -1670,7 +1972,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 43.18) (xy 68.58 43.18)
+			(xy 58.42 43.18) (xy 71.12 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2868,6 +3170,103 @@
 			(project "motherboard"
 				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d/f049e4ad-bebe-4338-850a-2727de737ae9/260af3dc-9286-4c76-9c6c-eeb806d3e6e5"
 					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "592-partslib:ISL54059IRUZ-T")
+		(at 59.69 -11.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed627756-a3aa-412d-ad53-def328f7dfc9")
+		(property "Reference" "U23"
+			(at 80.01 -21.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "ISL54059IRUZ-T"
+			(at 80.01 -19.05 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "UTQFN10_1P85X1P45_INR"
+			(at 59.69 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "ISL54059IRUZ-T"
+			(at 59.69 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5a506bef-197e-47c9-b014-127b2c830d90")
+		)
+		(pin "5"
+			(uuid "d50dd45e-f09a-4ec6-9ac9-f54d50255e1f")
+		)
+		(pin "9"
+			(uuid "7b873dc5-38d4-4571-a252-39a4de0b4898")
+		)
+		(pin "6"
+			(uuid "9f23731a-b167-404f-af4d-1e34f69762bb")
+		)
+		(pin "4"
+			(uuid "98fbf1cd-cd1d-4e02-a750-2cbbe1158b05")
+		)
+		(pin "3"
+			(uuid "d7312c17-5eec-470f-9919-3c9eb139f889")
+		)
+		(pin "1"
+			(uuid "37b59b0b-3ee8-47ea-bc75-6f27cb141d4c")
+		)
+		(pin "11"
+			(uuid "114c5fd4-dab3-47eb-99a0-01807f0edcca")
+		)
+		(pin "10"
+			(uuid "813f4334-b115-44eb-8520-2f291742f813")
+		)
+		(pin "8"
+			(uuid "ae0ca937-7ff9-4c91-a6ce-729bd795f1d0")
+		)
+		(pin "7"
+			(uuid "7313fdd2-e56e-4e35-b318-2d0d25a50315")
+		)
+		(instances
+			(project ""
+				(path "/5b0c97ac-fa03-4db8-b41b-0eee32b6f55d/f049e4ad-bebe-4338-850a-2727de737ae9/260af3dc-9286-4c76-9c6c-eeb806d3e6e5"
+					(reference "U23")
 					(unit 1)
 				)
 			)
