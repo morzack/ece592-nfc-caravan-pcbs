@@ -3081,7 +3081,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LT1761ES5-BYPTRMPBF:SOT95P280X145-5N"
+		(property "Footprint" "592-partslib:SOT95P280X145-5N"
 			(at 114.3 106.68 0)
 			(effects
 				(font
@@ -3156,6 +3156,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C117227"
+			(at 114.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
